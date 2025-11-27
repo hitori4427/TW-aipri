@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>祕密的偶像公主選角模擬器</title>
+    
+    <!-- 1. 引入 React 和 ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- 2. 引入 Babel (讓瀏覽器看懂 JSX) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- 3. 引入 Tailwind CSS (美化樣式) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 解決 Google Fonts 或其他字體問題 -->
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        /* 隱藏滾動條但保持功能 */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body>
+    <!-- React 程式的掛載點 -->
+    <div id="root"></div>
+
+    <!-- 您的 React 程式碼放在這裡 -->
+    <script type="text/babel">
+        // --- 這裡將原本的 import 轉為瀏覽器可用的變數 ---
+        const { useState, useRef, useEffect } = React;
+
+        // --- 以下是您原本的程式碼內容 ---
+
+        // 預設佔位圖
+        const PLACEHOLDER_BG = "data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E";
+        const PLACEHOLDER_IMG = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 600'%3E%3Crect fill='%23fce7f3' width='800' height='600'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='24' fill='%23db2777'%3E無背景圖%3C/text%3E%3C/svg%3E";
+
+        // 預設素材連結
+        const DEFAULT_ASSETS = {
+            startScreen: 'https://hitori4427.github.io/TW-aipri/%E5%B0%81%E9%9D%A2.jpeg',
+            basicInfo: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112608801527996436/image.png',
+            faceVoice: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112608830389014568/image.png',
+            hair: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112608903952900136/image.png',
+            skinEyes: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112608948169269288/image.png',
+            color: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112609043635830914/image.png',
+            makeup: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112608996756082748/image.png',
+            final: 'https://cdn.discordapp.com/attachments/1058936921575465011/1112609104788770857/image.png',
+        };
+
+        // --- 設定檔 ---
+        const stepConfig = {
+            face: {
+                sheet: 'faceVoice',
+                label: '臉型',
+                sprite: { rows: 2, cols: 4, yStart: 0.22, yEnd: 0.50 },
+                options: [
+                    { label: '少女', url: 'https://hitori4427.github.io/TW-aipri/%E5%B0%91%E5%A5%B3.jpg' },
+                    { label: '活力', url: 'https://hitori4427.github.io/TW-aipri/%E6%B4%BB%E5%8A%9B.jpg' },
+                    { label: '柔和', url: 'https://hitori4427.github.io/TW-aipri/%E6%9F%94%E5%92%8C.jpg' },
+                    { label: '認真', url: 'https://hitori4427.github.io/TW-aipri/%E8%AA%8D%E7%9C%9F.jpg' },
+                    { label: '強勢', url: 'https://hitori4427.github.io/TW-aipri/%E5%BC%B7%E5%8B%A2.jpg' },
+                    { label: '美艷', url: 'https://hitori4427.github.io/TW-aipri/%E7%BE%8E%E8%89%B7.jpg' },
+                    { label: '浪漫', url: 'https://hitori4427.github.io/TW-aipri/%E6%B5%AA%E6%BC%AB.jpg' },
+                    { label: '神秘', url: 'https://hitori4427.github.io/TW-aipri/%E7%A5%9E%E7%A7%98.jpg' },
+                ]
+            },
+            voice: {
+                sheet: 'faceVoice',
+                label: '語音',
+                sprite: { rows: 2, cols: 3, yStart: 0.62, yEnd: 0.90 },
+                options: [
+                    { label: '活潑', url: 'https://hitori4427.github.io/TW-aipri/%E6%B4%BB%E6%BD%91.jpg' },
+                    { label: '溫柔', url: 'https://hitori4427.github.io/TW-aipri/%E6%BA%AB%E6%9F%94.jpg' },
+                    { label: '直率', url: 'https://hitori4427.github.io/TW-aipri/%E7%9B%B4%E7%8E%87.jpg' },
+                    { label: '酷炫', url: 'https://hitori4427.github.io/TW-aipri/%E9%85%B7%E7%82%AB.jpg' },
+                    { label: '優雅', url: 'https://hitori4427.github.io/TW-aipri/%E5%84%AA%E9%9B%85.jpg' },
+                    { label: '可愛', url: 'https://hitori4427.github.io/TW-aipri/%E5%8F%AF%E6%84%9B.jpg' },
+                ]
+            },
+            skin: {
+                sheet: 'skinEyes',
+                label: '膚色',
+                sprite: { rows: 2, cols: 3, yStart: 0.20, yEnd: 0.48 },
+                options: [
+                    { label: '膚色A', url: 'https://hitori4427.github.io/TW-aipri/A.jpg' },
+                    { label: '膚色B', url: 'https://hitori4427.github.io/TW-aipri/B.jpg' },
+                    { label: '膚色C', url: 'https://hitori4427.github.io/TW-aipri/C.jpg' },
+                    { label: '膚色D', url: 'https://hitori4427.github.io/TW-aipri/D.jpg' },
+                    { label: '膚色E', url: 'https://hitori4427.github.io/TW-aipri/E.jpg' },
+                    { label: '膚色F', url: 'https://hitori4427.github.io/TW-aipri/F.jpg' },
+                ]
+            },
+            eyes: {
+                sheet: 'skinEyes',
+                label: '眼睛顏色',
+                sprite: { rows: 1, cols: 4, yStart: 0.65, yEnd: 0.85 },
+                options: [
+                    { label: '寧靜木質', url: 'https://hitori4427.github.io/TW-aipri/%E5%AF%A7%E9%9D%9C%E6%9C%A8%E8%B3%AA.jpg' },
+                    { label: '純淨海洋', url: 'https://hitori4427.github.io/TW-aipri/%E7%B4%94%E6%B7%A8%E6%B5%B7%E6%B4%8B.jpg' },
+                    { label: '甜美櫻桃', url: 'https://hitori4427.github.io/TW-aipri/%E7%94%9C%E7%BE%8E%E6%AB%BB%E6%A1%83.jpg' },
+                    { label: '閃耀薄荷', url: 'https://hitori4427.github.io/TW-aipri/%E9%96%83%E8%80%80%E8%96%84%E8%8D%B7.jpg' },
+                ]
+            },
+            bangs: {
+                sheet: 'hair',
+                label: '瀏海',
+                sprite: { rows: 1, cols: 3, yStart: 0.20, yEnd: 0.40 },
+                options: [
+                    { label: '洋娃娃瀏海', url: 'https://hitori4427.github.io/TW-aipri/%E6%B4%8B%E5%A8%83%E5%A8%83%E7%80%8F%E6%B5%B7.jpg' },
+                    { label: '清爽斜瀏海', url: 'https://hitori4427.github.io/TW-aipri/%E6%B8%85%E7%88%BD%E6%96%9C%E7%80%8F%E6%B5%B7.jpg' },
+                    { label: '帥氣造型', url: 'https://hitori4427.github.io/TW-aipri/%E5%B8%A5%E6%B0%A3%E9%80%A0%E5%9E%8B.jpg' },
+                ]
+            },
+            backHair: {
+                sheet: 'hair',
+                label: '後方髮型',
+                customPositions: [
+                    { l: 6, t: 55, w: 28, h: 18, label: '俏皮可愛雙馬尾', url: 'https://hitori4427.github.io/TW-aipri/%E4%BF%8F%E7%9A%AE%E5%8F%AF%E6%84%9B%E9%9B%99%E9%A6%AC%E5%B0%BE.jpg' },
+                    { l: 36, t: 55, w: 28, h: 18, label: '俐落短髮', url: 'https://hitori4427.github.io/TW-aipri/%E4%BF%90%E8%90%BD%E7%9F%AD%E9%AB%AE.jpg' },
+                    { l: 66, t: 55, w: 28, h: 18, label: '自然鮑伯頭', url: 'https://hitori4427.github.io/TW-aipri/%E8%87%AA%E7%84%B6%E9%AE%91%E4%BC%AF%E9%A0%AD.jpg' },
+                    { l: 20, t: 75, w: 28, h: 18, label: '令人憧憬的長髮', url: 'https://hitori4427.github.io/TW-aipri/%E4%BB%A4%E4%BA%BA%E6%86%A7%E6%86%AC%E7%9A%84%E9%95%B7%E9%AB%AE.jpg' },
+                    { l: 52, t: 75, w: 28, h: 18, label: '純潔側馬尾', url: 'https://hitori4427.github.io/TW-aipri/%E7%B4%94%E6%BD%94%E5%81%B4%E9%A6%AC%E5%B0%BE.jpg' },
+                ],
+                sprite: { rows: 2, cols: 3, yStart: 0.55, yEnd: 0.95 }
+            },
+            hairColor: {
+                sheet: 'color',
+                label: '頭髮顏色',
+                sprite: { rows: 2, cols: 3, yStart: 0.20, yEnd: 0.55 },
+                options: [
+                    { label: '亮麗黑', url: 'https://hitori4427.github.io/TW-aipri/%E4%BA%AE%E9%BA%97%E9%BB%91.jpg' },
+                    { label: '黃鶯亞麻灰', url: 'https://hitori4427.github.io/TW-aipri/%E4%BA%9E%E9%BA%BB%E7%81%B0.jpg' },
+                    { label: '日光黃', url: 'https://hitori4427.github.io/TW-aipri/%E6%97%A5%E5%85%89%E9%BB%83.jpg' },
+                    { label: '幸運天藍', url: 'https://hitori4427.github.io/TW-aipri/%E5%A4%A9%E8%97%8D.jpg' },
+                    { label: '藍莓紫', url: 'https://hitori4427.github.io/TW-aipri/%E8%97%8D%E8%8E%93%E7%B4%AB.jpg' },
+                    { label: '奇幻粉紅', url: 'https://hitori4427.github.io/TW-aipri/%E7%B2%89%E7%B4%85.jpg' },
+                ]
+            },
+            highlights: {
+                sheet: 'color',
+                label: '挑染',
+                sprite: { rows: 1, cols: 1, yStart: 0.70, yEnd: 0.95 },
+                options: [
+                    { label: '細挑染', url: 'https://hitori4427.github.io/TW-aipri/%E7%B4%B0%E6%8C%91%E6%9F%93.jpg' },
+                ]
+            },
+            highlightColor: {
+                sheet: 'color',
+                label: '挑染顏色',
+                sprite: { rows: 2, cols: 3, yStart: 0.20, yEnd: 0.55 },
+                options: [
+                    { label: '亮麗黑', url: 'https://hitori4427.github.io/TW-aipri/%E4%BA%AE%E9%BA%97%E9%BB%91.jpg' },
+                    { label: '黃鶯亞麻灰', url: 'https://hitori4427.github.io/TW-aipri/%E4%BA%9E%E9%BA%BB%E7%81%B0.jpg' },
+                    { label: '日光黃', url: 'https://hitori4427.github.io/TW-aipri/%E6%97%A5%E5%85%89%E9%BB%83.jpg' },
+                    { label: '幸運天藍', url: 'https://hitori4427.github.io/TW-aipri/%E5%A4%A9%E8%97%8D.jpg' },
+                    { label: '藍莓紫', url: 'https://hitori4427.github.io/TW-aipri/%E8%97%8D%E8%8E%93%E7%B4%AB.jpg' },
+                    { label: '奇幻粉紅', url: 'https://hitori4427.github.io/TW-aipri/%E7%B2%89%E7%B4%85.jpg' },
+                ]
+            },
+            makeup: {
+                sheet: 'makeup',
+                label: '其他化妝',
+                sprite: { rows: 1, cols: 3, yStart: 0.20, yEnd: 0.45 },
+                options: [
+                    { label: '珍珠髮飾', url: 'https://hitori4427.github.io/TW-aipri/%E7%8F%8D%E7%8F%A0%E9%AB%AE%E9%A3%BE.jpg' },
+                    { label: '早熟女孩', url: 'https://hitori4427.github.io/TW-aipri/%E6%97%A9%E7%86%9F%E5%A5%B3%E5%AD%A9.jpg' },
+                    { label: '橢圓形眼鏡', url: 'https://hitori4427.github.io/TW-aipri/%E6%A9%A2%E5%9C%93%E5%BD%A2%E7%9C%BC%E9%8F%A1.jpg' },
+                ]
+            },
+            bracelet: {
+                sheet: 'makeup',
+                label: '偶像公主手環',
+                sprite: { rows: 1, cols: 3, yStart: 0.60, yEnd: 0.85 },
+                options: [
+                    { label: '陽葵款式', url: 'https://hitori4427.github.io/TW-aipri/%E9%99%BD%E8%91%B5%E6%AC%BE%E5%BC%8F.jpg' },
+                    { label: '美月款式', url: 'https://hitori4427.github.io/TW-aipri/%E7%BE%8E%E6%9C%88%E6%AC%BE%E5%BC%8F.jpg' },
+                    { label: '櫻款式', url: 'https://hitori4427.github.io/TW-aipri/%E6%AB%BB%E6%AC%BE%E5%BC%8F.jpg' },
+                ]
+            }
+        };
+
+        // --- 元件 ---
+
+        const ResultThumbnail = ({ configKey, value, assets, customThumbnails }) => {
+            const config = stepConfig[configKey];
+            const imgSrc = assets[config.sheet];
+            const customImg = customThumbnails[configKey];
+
+            if (customImg) return <img src={customImg} className="w-full h-full object-cover" alt="custom" />;
+
+            let optionData = null;
+            let index = -1;
+
+            if (config.options) {
+                index = config.options.findIndex(o => o.label === value);
+                optionData = config.options[index];
+            } else if (config.customPositions) {
+                index = config.customPositions.findIndex(p => p.label === value);
+                optionData = config.customPositions[index];
+            }
+
+            if (optionData && optionData.url && optionData.url.trim() !== '') {
+                return <img src={optionData.url} className="w-full h-full object-cover" alt={value} />;
+            }
+
+            if (!imgSrc || index === -1) {
+                return <div className="w-full h-full bg-gray-100 flex items-center justify-center text-xs text-gray-300">?</div>;
+            }
+
+            const { rows, cols, yStart, yEnd } = config.sprite;
+            const row = Math.floor(index / cols);
+            const col = index % cols;
+
+            return (
+                <div className="w-full h-full relative overflow-hidden bg-white">
+                    <img 
+                        src={imgSrc} 
+                        alt="thumb"
+                        className="absolute max-w-none"
+                        style={{
+                            width: `${cols * 100}%`,
+                            left: `-${col * 100}%`,
+                            top: `-${(yStart * 100) + (row * ((yEnd*100 - yStart*100)/rows))}%`,
+                            height: 'auto', 
+                        }} 
+                        onError={(e) => e.target.style.display='none'}
+                    />
+                </div>
+            );
+        };
+
+        const Step4Item = ({ configKey, config, value, isLocked, assets, customThumbnails, handleCustomThumbnailUrl, handleCustomThumbnailUpload }) => {
+            const [showUrlInput, setShowUrlInput] = useState(false);
+
+            return (
+                <div className={`relative flex items-center gap-2 p-2 rounded-xl border-2 ${isLocked ? 'bg-pink-50 border-pink-100' : 'bg-white border-gray-100'} ${configKey==='bracelet'?'col-span-full':''}`}>
+                    <div className="w-14 h-14 flex-shrink-0 rounded-lg bg-white border border-gray-200 overflow-hidden shadow-sm relative group flex items-center justify-center">
+                        {Array.isArray(value) ? (
+                            value.length > 0 ? <ResultThumbnail configKey={configKey} value={value[0]} assets={assets} customThumbnails={customThumbnails} /> : <span className="text-xs text-gray-300">-</span>
+                        ) : (
+                            <ResultThumbnail configKey={configKey} value={value} assets={assets} customThumbnails={customThumbnails} />
+                        )}
+                        
+                        <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10">
+                            <label className="text-white text-[9px] cursor-pointer hover:text-pink-300 mb-1">
+                                上傳
+                                <input type="file" accept="image/*" className="hidden" onChange={(e) => handleCustomThumbnailUpload(configKey, e.target.files[0])} />
+                            </label>
+                            <button className="text-white text-[9px] cursor-pointer hover:text-pink-300" onClick={() => setShowUrlInput(!showUrlInput)}>網址</button>
+                        </div>
+                    </div>
+
+                    <div className="flex-grow min-w-0">
+                        {showUrlInput ? (
+                            <div className="flex gap-1">
+                                <input 
+                                    type="text" 
+                                    placeholder="貼上網址..." 
+                                    className="w-full text-xs border p-1 rounded"
+                                    onBlur={(e) => { handleCustomThumbnailUrl(configKey, e.target.value); setShowUrlInput(false); }}
+                                    onKeyDown={(e) => { if(e.key === 'Enter') { handleCustomThumbnailUrl(configKey, e.currentTarget.value); setShowUrlInput(false); }}}
+                                    autoFocus
+                                />
+                                <button onClick={() => setShowUrlInput(false)} className="text-gray-400 text-xs">x</button>
+                            </div>
+                        ) : (
+                            <>
+                                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">
+                                    {config.label} {isLocked && '🔒'}
+                                </span>
+                                <span className={`font-bold text-sm block truncate ${Array.isArray(value) && value.length > 0 ? 'text-gray-800' : (!Array.isArray(value) && value ? 'text-gray-800' : 'text-gray-400')}`}>
+                                    {Array.isArray(value) 
+                                        ? (value.length > 0 ? value.join(' + ') : '未選擇') 
+                                        : (value || '未選擇')
+                                    }
+                                </span>
+                                {Array.isArray(value) && value.length > 1 && (
+                                    <div className="flex gap-1 mt-1 overflow-x-auto">
+                                        {value.slice(1).map((v, i) => (
+                                            <div key={i} className="w-6 h-6 rounded border overflow-hidden flex-shrink-0">
+                                                <ResultThumbnail configKey={configKey} value={v} assets={assets} customThumbnails={customThumbnails} />
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
+                            </>
+                        )}
+                    </div>
+                </div>
+            );
+        };
+
+        // 3. App Component
+        function App() {
+            const [mainStep, setMainStep] = useState(0);
+            const [currentStepKey, setCurrentStepKey] = useState('face');
+            const [assets, setAssets] = useState(DEFAULT_ASSETS);
+            const [customThumbnails, setCustomThumbnails] = useState({});
+            const [basicInfo, setBasicInfo] = useState({
+                nickname: '',
+                birthMonth: '', 
+                birthDay: '',
+                age: '',
+                qrCodeUrl: null,
+            });
+            
+            const [selections, setSelections] = useState({
+                face: null, voice: null, skin: null, eyes: null, bangs: null, 
+                backHair: null, hairColor: null, highlights: null, highlightColor: null, makeup: [], bracelet: null
+            });
+            const fileInputRef = useRef(null);
+
+            useEffect(() => {
+                window.scrollTo(0, 0);
+            }, [mainStep, currentStepKey]);
+
+            const handleAssetUpload = (key, file) => {
+                if (file) {
+                    const url = URL.createObjectURL(file);
+                    setAssets(prev => ({ ...prev, [key]: url }));
+                }
+            };
+
+            const handleCustomThumbnailUpload = (key, file) => {
+                if (file) {
+                    const url = URL.createObjectURL(file);
+                    setCustomThumbnails(prev => ({ ...prev, [key]: url }));
+                }
+            };
+
+            const handleCustomThumbnailUrl = (key, url) => {
+                if(url) setCustomThumbnails(prev => ({ ...prev, [key]: url }));
+            }
+
+            const handleBasicInfoChange = (e) => {
+                setBasicInfo({ ...basicInfo, [e.target.name]: e.target.value });
+            };
+
+            const handleQrUpload = (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const url = URL.createObjectURL(file);
+                    setBasicInfo({ ...basicInfo, qrCodeUrl: url });
+                }
+            };
+
+            const handleReset = () => {
+                setSelections({
+                    face: null, voice: null, skin: null, eyes: null, bangs: null, 
+                    backHair: null, hairColor: null, highlights: null, highlightColor: null, makeup: [], bracelet: null
+                });
+                setBasicInfo({ nickname: '', birthMonth: '', birthDay: '', age: '', qrCodeUrl: null });
+                setCustomThumbnails({});
+                setMainStep(0); 
+                setCurrentStepKey('face');
+            };
+
+            const handleBack = () => {
+                if (mainStep === 1) {
+                    setMainStep(0);
+                } else if (mainStep === 2) {
+                    if (currentStepKey === 'skin') setCurrentStepKey('voice');
+                    else if (currentStepKey === 'voice') setCurrentStepKey('face');
+                    else if (currentStepKey === 'face') setMainStep(1);
+                } else if (mainStep === 3) {
+                    setMainStep(2);
+                    setCurrentStepKey('skin');
+                } else if (mainStep === 4) {
+                    setMainStep(3);
+                    setCurrentStepKey('eyes'); 
+                }
+            };
+
+            const handleSelection = (key, value) => {
+                if (key === 'makeup') {
+                    setSelections(prev => {
+                        const current = Array.isArray(prev[key]) ? prev[key] : [];
+                        if (current.includes(value)) {
+                            return { ...prev, [key]: current.filter(v => v !== value) };
+                        } else {
+                            return { ...prev, [key]: [...current, value] };
+                        }
+                    });
+                } else {
+                    setSelections(prev => ({ ...prev, [key]: value }));
+                    setTimeout(() => {
+                        switch(key) {
+                            case 'face': setCurrentStepKey('voice'); break;
+                            case 'voice': setCurrentStepKey('skin'); break;
+                            case 'skin': setMainStep(3); setCurrentStepKey('eyes'); break;
+                        }
+                    }, 250);
+                }
+            };
+
+            const ImageSelector = ({ configKey, onUpload }) => {
+                const config = stepConfig[configKey];
+                const bgImage = assets[config.sheet];
+                const isSelected = (val) => {
+                    if (configKey === 'makeup') {
+                        return Array.isArray(selections[configKey]) && selections[configKey].includes(val);
+                    }
+                    return selections[configKey] === val;
+                };
+                const [imgError, setImgError] = useState(false);
+
+                useEffect(() => {
+                    setImgError(false); 
+                }, [configKey]);
+
+                useEffect(() => {
+                    if(bgImage) setImgError(false);
+                }, [bgImage]);
+
+                const useGridMode = imgError || !bgImage || (config.options && config.options.some(o => o.url));
+
+                if (useGridMode) {
+                    const gridCols = config.sprite ? config.sprite.cols : 3;
+                    const items = config.options || config.customPositions || [];
+
+                    return (
+                        <div className="w-full max-w-3xl mx-auto p-2">
+                            <div className="flex justify-end mb-2">
+                                <label className="text-xs text-gray-400 hover:text-pink-500 cursor-pointer flex items-center gap-1">
+                                    <span>⚙️ 設定底圖</span>
+                                    <input 
+                                        type="file" 
+                                        accept="image/*" 
+                                        className="hidden" 
+                                        onChange={(e) => onUpload(config.sheet, e.target.files[0])} 
+                                    />
+                                </label>
+                            </div>
+
+                            <div className={`grid gap-4`} style={{ gridTemplateColumns: `repeat(${Math.min(gridCols, 4)}, 1fr)` }}>
+                                {items.map((item, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => handleSelection(configKey, item.label)}
+                                        className={`
+                                            relative aspect-square rounded-2xl border-4 overflow-hidden flex flex-col items-center justify-end
+                                            transition-all duration-200 shadow-md hover:shadow-lg
+                                            ${isSelected(item.label) ? 'border-pink-500 ring-2 ring-pink-300 scale-105 bg-pink-50' : 'border-white hover:border-pink-200 bg-white'}
+                                        `}
+                                    >
+                                        <div className="absolute inset-0 p-2">
+                                            {item.url ? (
+                                                <img 
+                                                    src={item.url} 
+                                                    alt={item.label} 
+                                                    className="w-full h-full object-contain drop-shadow-sm" 
+                                                />
+                                            ) : (
+                                                <div className="w-full h-full flex items-center justify-center text-4xl bg-gray-100 rounded-xl text-gray-300">
+                                                    ?
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 text-center">
+                                            <span className={`text-xs font-bold ${isSelected(item.label) ? 'text-pink-600' : 'text-gray-600'}`}>
+                                                {item.label}
+                                            </span>
+                                        </div>
+
+                                        {isSelected(item.label) && (
+                                            <div className="absolute top-2 right-2 bg-pink-500 text-white rounded-full w-6 h-6 flex items-center justify-center shadow-lg z-10">
+                                                ✓
+                                            </div>
+                                        )}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    );
+                }
+
+                return (
+                    <div className="relative w-full max-w-2xl mx-auto shadow-xl rounded-xl overflow-hidden bg-gray-100 border-2 border-pink-200 group select-none min-h-[300px]">
+                        <img 
+                            src={bgImage} 
+                            alt={config.label} 
+                            className="w-full h-auto block pointer-events-none" 
+                            onError={() => setImgError(true)}
+                        />
+
+                        <label className={`absolute top-2 right-2 z-20 bg-black/60 hover:bg-pink-500 text-white text-xs px-3 py-1.5 rounded-full cursor-pointer transition-all opacity-0 group-hover:opacity-100`}>
+                            更換底圖
+                            <input 
+                                type="file" 
+                                accept="image/*" 
+                                className="hidden" 
+                                onChange={(e) => onUpload(config.sheet, e.target.files[0])} 
+                            />
+                        </label>
+
+                        <div className="absolute inset-0 z-10">
+                            {config.customPositions ? (
+                                config.customPositions.map((pos, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => handleSelection(configKey, pos.label)}
+                                        className={`absolute rounded-xl transition-all duration-200 overflow-hidden border-2
+                                            ${isSelected(pos.label) ? 'border-pink-500 shadow-[0_0_15px_rgba(236,72,153,0.6)] scale-105' : 'border-transparent hover:bg-white/20'}
+                                        `}
+                                        style={{
+                                            left: `${pos.l}%`,
+                                            top: `${pos.t}%`,
+                                            width: `${pos.w}%`,
+                                            height: `${pos.h}%`,
+                                        }}
+                                    >
+                                        {pos.url ? (
+                                            <img src={pos.url} alt={pos.label} className="absolute inset-0 w-full h-full object-contain bg-white/50" />
+                                        ) : (
+                                            (imgError || !bgImage) && <span className="flex items-center justify-center h-full text-xs font-bold text-gray-500 bg-gray-200/80">{pos.label}</span>
+                                        )}
+                                        
+                                        {isSelected(pos.label) && <div className="absolute top-1 right-1 bg-pink-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs shadow z-10">✓</div>}
+                                    </button>
+                                ))
+                            ) : (
+                                (() => {
+                                    const { rows, cols, yStart, yEnd } = config.sprite;
+                                    const colWidth = 100 / cols;
+                                    const areaHeight = yEnd - yStart;
+                                    const rowHeight = areaHeight / rows;
+                                    const gapY = 1; 
+                                    const gapX = 1;
+
+                                    const buttons = [];
+                                    config.options.forEach((opt, idx) => {
+                                        const r = Math.floor(idx / cols);
+                                        const c = idx % cols;
+                                        const top = (yStart + r * rowHeight) * 100;
+                                        const left = c * colWidth;
+                                        const height = rowHeight * 100;
+
+                                        buttons.push(
+                                            <button
+                                                key={idx}
+                                                onClick={() => handleSelection(configKey, opt.label)}
+                                                className={`absolute rounded-xl transition-all duration-200 overflow-hidden border-2
+                                                    ${isSelected(opt.label) ? 'border-pink-500 shadow-[0_0_15px_rgba(236,72,153,0.6)] scale-105' : 'border-transparent hover:bg-white/20'}
+                                                `}
+                                                style={{
+                                                    top: `${top + gapY}%`,
+                                                    left: `${left + gapX}%`,
+                                                    height: `${height - gapY*2}%`,
+                                                    width: `${colWidth - gapX*2}%`,
+                                                }}
+                                            >
+                                                {opt.url ? (
+                                                    <img src={opt.url} alt={opt.label} className="absolute inset-0 w-full h-full object-contain bg-white/50" />
+                                                ) : (
+                                                    (imgError || !bgImage) && <span className="flex items-center justify-center h-full text-xs font-bold text-gray-500 bg-gray-200/80">{opt.label}</span>
+                                                )}
+
+                                                {isSelected(opt.label) && <div className="absolute top-1 right-1 bg-pink-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs shadow z-10">✓</div>}
+                                            </button>
+                                        );
+                                    });
+                                    return buttons;
+                                })()
+                            )}
+                        </div>
+                    </div>
+                );
+            };
+
+            const renderStep0 = () => (
+                <div 
+                    className="min-h-screen w-full flex items-center justify-center cursor-pointer relative bg-pink-50" 
+                    onClick={() => setMainStep(1)}
+                >
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <img 
+                            src={assets.startScreen || PLACEHOLDER_IMG}
+                            alt="Start Screen"
+                            className="max-w-full max-h-full w-auto h-auto object-contain shadow-lg" 
+                        />
+                    </div>
+
+                    {!assets.startScreen && (
+                        <div className="relative z-10 text-center p-10 bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl animate-pulse">
+                            <h1 className="text-4xl font-black text-pink-600 mb-2">祕密的偶像公主<br/>選角模擬器</h1>
+                            <p className="text-gray-500 font-bold">點擊畫面開始</p>
+                            <p className="text-xs text-gray-400 mt-4">(請在程式碼中設定 startScreen 圖片)</p>
+                        </div>
+                    )}
+                    
+                    {assets.startScreen && (
+                        <div className="absolute bottom-10 left-0 right-0 text-center z-10">
+                            <span className="inline-block bg-black/30 backdrop-blur-sm text-white px-6 py-2 rounded-full font-bold text-xl animate-bounce border border-white/50">
+                                點擊畫面開始 / Tap to Start
+                            </span>
+                        </div>
+                    )}
+                </div>
+            );
+
+            const renderStep1 = () => (
+                <div className="relative min-h-screen flex flex-col items-center justify-center bg-gray-100">
+                    <div className="absolute inset-0 overflow-hidden bg-gray-200">
+                        <img 
+                            src={assets.basicInfo} 
+                            className="w-full h-full object-cover opacity-60 blur-sm" 
+                            alt="bg" 
+                            onError={(e) => e.target.style.display='none'} 
+                        />
+                    </div>
+                    <div className="relative z-10 w-full max-w-lg p-4">
+                        <div className="bg-white/95 backdrop-blur-md p-6 rounded-3xl shadow-2xl border-4 border-pink-200 space-y-5">
+                           <div className="flex justify-between items-center border-b-2 border-pink-100 pb-2">
+                             <h2 className="text-xl font-black text-pink-600 text-center">偶像檔案</h2>
+                             <label className="text-xs bg-gray-200 hover:bg-gray-300 px-2 py-1 rounded text-gray-600 cursor-pointer transition-colors">
+                               更換背景
+                               <input 
+                                 type="file" 
+                                 accept="image/*" 
+                                 className="hidden" 
+                                 onChange={(e) => handleAssetUpload('basicInfo', e.target.files[0])} 
+                               />
+                             </label>
+                           </div>
+                           <div>
+                              <label className="text-xs font-bold text-gray-500">暱稱</label>
+                              <input type="text" name="nickname" value={basicInfo.nickname} onChange={handleBasicInfoChange} className="w-full p-2 text-lg font-bold border-b-2 border-pink-300 bg-transparent outline-none" placeholder="輸入暱稱..." />
+                           </div>
+                           <div className="flex gap-4">
+                              <div className="flex-1">
+                                 <label className="text-xs font-bold text-gray-500">生日</label>
+                                 <div className="flex items-end gap-2 w-full p-2 border-b-2 border-pink-300">
+                                    <input 
+                                        type="number" 
+                                        name="birthMonth"
+                                        placeholder="MM" 
+                                        min="1" max="12"
+                                        value={basicInfo.birthMonth}
+                                        className="w-12 bg-transparent outline-none text-center font-bold text-lg"
+                                        onChange={handleBasicInfoChange}
+                                    />
+                                    <span className="text-gray-500 font-bold text-sm mb-1">月</span>
+                                    <input 
+                                        type="number" 
+                                        name="birthDay"
+                                        placeholder="DD" 
+                                        min="1" max="31"
+                                        value={basicInfo.birthDay}
+                                        className="w-12 bg-transparent outline-none text-center font-bold text-lg"
+                                        onChange={handleBasicInfoChange}
+                                    />
+                                    <span className="text-gray-500 font-bold text-sm mb-1">日</span>
+                                 </div>
+                              </div>
+                              <div className="w-20">
+                                 <label className="text-xs font-bold text-gray-500">年齡</label>
+                                 <input type="number" name="age" value={basicInfo.age} onChange={handleBasicInfoChange} className="w-full p-2 text-lg font-bold border-b-2 border-pink-300 bg-transparent outline-none" placeholder="16" />
+                              </div>
+                           </div>
+                           <div>
+                              <label className="text-xs font-bold text-gray-500 block mb-2">QR Code</label>
+                              <div onClick={() => fileInputRef.current.click()} className="w-full h-32 border-2 border-dashed border-pink-400 rounded-xl flex items-center justify-center bg-pink-50 cursor-pointer hover:bg-pink-100 transition-colors">
+                                {basicInfo.qrCodeUrl ? <img src={basicInfo.qrCodeUrl} className="h-full object-contain" /> : <span className="text-pink-400 font-bold">+ 上傳照片</span>}
+                              </div>
+                              <input ref={fileInputRef} type="file" accept="image/*" className="hidden" onChange={handleQrUpload} />
+                           </div>
+                           <div className="flex gap-2">
+                                <button onClick={() => setMainStep(0)} className="w-1/4 py-3 rounded-full font-bold text-gray-500 bg-gray-200 hover:bg-gray-300 transition-colors">返回</button>
+                                <button onClick={() => setMainStep(2)} disabled={!basicInfo.nickname} className={`w-3/4 py-3 rounded-full font-bold text-white shadow-lg ${basicInfo.nickname ? 'bg-pink-500' : 'bg-gray-300'}`}>下一步</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            );
+
+            const renderStep2 = () => (
+                <div className="min-h-screen bg-gray-900 flex flex-col">
+                   <div className="bg-gray-800 text-white p-4 flex justify-between items-center shadow-lg z-20">
+                      <span className="font-bold">步驟 2: 基礎設定</span>
+                      <div className="flex gap-2">
+                         <button onClick={handleBack} className="text-xs md:text-sm text-gray-400 border border-gray-600 px-3 py-1 rounded-full hover:bg-gray-700 transition-colors">上一步</button>
+                         <button onClick={handleReset} className="text-xs md:text-sm text-red-400 border border-red-800/50 px-3 py-1 rounded-full hover:bg-red-900/20 transition-colors">從頭開始</button>
+                      </div>
+                   </div>
+                   <div className="flex-grow flex items-center justify-center p-2 bg-gray-900 overflow-y-auto">
+                      <ImageSelector configKey={currentStepKey} onUpload={handleAssetUpload} />
+                   </div>
+                </div>
+            );
+
+            const renderStep3 = () => {
+                const tabs = [
+                    { key: 'eyes', label: '眼睛' },
+                    { key: 'bangs', label: '瀏海' },
+                    { key: 'backHair', label: '後髮' },
+                    { key: 'hairColor', label: '髮色' },
+                    { key: 'highlights', label: '挑染' },
+                    { key: 'highlightColor', label: '挑染顏色' },
+                    { key: 'makeup', label: '化妝' },
+                    { key: 'bracelet', label: '手環' },
+                ];
+                return (
+                    <div className="min-h-screen bg-gray-100 flex flex-col">
+                         <div className="bg-white p-2 shadow-md sticky top-0 z-20">
+                            <div className="flex justify-between items-center mb-2 px-1">
+                                <div className="flex items-center gap-2">
+                                    <button onClick={handleBack} className="text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded hover:bg-gray-300">← 上一步</button>
+                                    <button onClick={handleReset} className="text-xs bg-red-100 text-red-500 px-2 py-1 rounded hover:bg-red-200">↺ 重來</button>
+                                    <span className="font-bold text-gray-700 ml-2">細部設定</span>
+                                </div>
+                                <button onClick={() => setMainStep(4)} className="bg-green-500 text-white px-4 py-1.5 rounded-full font-bold shadow text-sm">完成設定 ✓</button>
+                            </div>
+                            <div className="flex gap-2 overflow-x-auto no-scrollbar pb-2">
+                               {tabs.map(tab => (
+                                 <button key={tab.key} onClick={() => setCurrentStepKey(tab.key)} className={`flex-shrink-0 px-4 py-1.5 rounded-full font-bold text-sm border ${currentStepKey === tab.key ? 'bg-pink-600 text-white border-pink-600' : 'bg-gray-100 text-gray-500 border-gray-200'}`}>
+                                   {tab.label}{selections[tab.key] && (Array.isArray(selections[tab.key]) ? selections[tab.key].length > 0 : selections[tab.key]) && ' •'}
+                                 </button>
+                               ))}
+                            </div>
+                         </div>
+                         <div className="flex-grow p-2 flex items-center justify-center bg-gray-800 overflow-y-auto">
+                            <ImageSelector configKey={currentStepKey} onUpload={handleAssetUpload} />
+                         </div>
+                    </div>
+                );
+            };
+
+            const renderStep4 = () => (
+                <div className="min-h-screen bg-gradient-to-br from-pink-300 to-purple-400 p-4 font-sans overflow-y-auto">
+                    <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border-8 border-white flex flex-col md:flex-row">
+                         <div className="relative w-full md:w-5/12 min-h-[400px] bg-gray-100 overflow-hidden group flex items-center justify-center">
+                             {assets.final ? 
+                                <img src={assets.final} className="w-full h-full object-contain" onError={(e) => e.target.style.display='none'} /> 
+                                : <div className="w-full h-full flex items-center justify-center text-gray-400">無底圖</div>
+                             }
+                             <label className="absolute top-2 right-2 bg-black/50 hover:bg-pink-500 text-white text-xs px-2 py-1 rounded cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity">
+                                更換底圖
+                                <input type="file" accept="image/*" className="hidden" onChange={(e) => handleAssetUpload('final', e.target.files[0])} />
+                             </label>
+                             <div className="absolute inset-0 flex flex-col justify-center items-center bg-white/20 backdrop-blur-[2px]">
+                                <div className="w-48 h-48 bg-white rounded-2xl shadow-xl p-2 mb-6 rotate-2 border-4 border-pink-200">
+                                   {basicInfo.qrCodeUrl ? <img src={basicInfo.qrCodeUrl} className="w-full h-full object-contain" /> : <div className="w-full h-full flex items-center justify-center text-sm text-gray-300 font-bold">NO QR</div>}
+                                </div>
+                                <div className="text-center">
+                                   <h1 className="text-5xl font-black text-white drop-shadow-md tracking-wide mb-2" style={{ WebkitTextStroke: '1px #ec4899' }}>{basicInfo.nickname}</h1>
+                                   <div className="inline-block bg-pink-600/90 text-white px-4 py-1 rounded-full text-base font-bold shadow-lg border border-pink-400">
+                                     {basicInfo.age || '?'} 歲 <span className="mx-1">|</span> {basicInfo.birthMonth || '??'}月{basicInfo.birthDay || '??'}日
+                                   </div>
+                                </div>
+                             </div>
+                         </div>
+                         <div className="w-full md:w-7/12 p-6 bg-white flex flex-col">
+                            <div className="flex justify-between items-center mb-4 border-b-2 border-pink-100 pb-2">
+                               <h3 className="text-2xl font-black text-gray-800">出道設定表</h3>
+                            </div>
+                            <p className="text-xs text-gray-400 mb-4 bg-gray-50 p-2 rounded">
+                               💡 若縮圖不準確，可點擊「上傳」更換或貼上網址。
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm flex-grow content-start">
+                               {Object.keys(stepConfig).map((key) => {
+                                 const config = stepConfig[key];
+                                 const value = selections[key];
+                                 const isLocked = ['face','voice','skin'].includes(key);
+                                 return (
+                                   <Step4Item 
+                                        key={key}
+                                        configKey={key}
+                                        config={config}
+                                        value={value}
+                                        isLocked={isLocked}
+                                        assets={assets}
+                                        customThumbnails={customThumbnails}
+                                        handleCustomThumbnailUrl={handleCustomThumbnailUrl}
+                                        handleCustomThumbnailUpload={handleCustomThumbnailUpload}
+                                   />
+                                 );
+                               })}
+                            </div>
+                            {/* Step 4 Footer Buttons */}
+                            <div className="mt-6 pt-4 border-t border-gray-100 text-center flex justify-center gap-4">
+                               <button onClick={handleBack} className="text-gray-600 font-bold text-sm bg-gray-100 px-4 py-2 rounded-full hover:bg-gray-200 transition-colors">← 回上一步修改</button>
+                               <button onClick={handleReset} className="text-red-500 font-bold text-sm bg-red-50 px-4 py-2 rounded-full hover:bg-red-100 transition-colors">↺ 重新製作</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            );
+
+            return (
+                <>
+                    {mainStep === 0 && renderStep0()}
+                    {mainStep === 1 && renderStep1()}
+                    {mainStep === 2 && renderStep2()}
+                    {mainStep === 3 && renderStep3()}
+                    {mainStep === 4 && renderStep4()}
+                </>
+            );
+        }
+
+        // 4. 啟動 React App
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
