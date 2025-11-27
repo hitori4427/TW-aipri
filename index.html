@@ -385,14 +385,28 @@
                         }
                     });
                 } else {
-                    setSelections(prev => ({ ...prev, [key]: value }));
-                    setTimeout(() => {
-                        switch(key) {
-                            case 'face': setCurrentStepKey('voice'); break;
-                            case 'voice': setCurrentStepKey('skin'); break;
-                            case 'skin': setMainStep(3); setCurrentStepKey('eyes'); break;
-                        }
-                    }, 250);
+                    // --- 修改邏輯：支援取消選取 ---
+                    
+                    // 檢查當前是否已經選中該項目
+                    const isDeselecting = selections[key] === value;
+
+                    setSelections(prev => ({ 
+                        ...prev, 
+                        // 如果是重複點擊，設為 null (取消)，否則設為新值
+                        [key]: isDeselecting ? null : value 
+                    }));
+                    
+                    // 只有在「選中」新項目時才自動跳轉
+                    // 如果是「取消選擇」，則停留在當前頁面
+                    if (!isDeselecting) {
+                        setTimeout(() => {
+                            switch(key) {
+                                case 'face': setCurrentStepKey('voice'); break;
+                                case 'voice': setCurrentStepKey('skin'); break;
+                                case 'skin': setMainStep(3); setCurrentStepKey('eyes'); break;
+                            }
+                        }, 250);
+                    }
                 }
             };
 
