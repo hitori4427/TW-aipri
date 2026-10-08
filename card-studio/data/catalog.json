@@ -1050,7 +1050,7 @@
     },
     {
       "uid": "official-67",
-      "code": "",
+      "code": "AP2-008",
       "catalogLabel": "第2彈 · 官方ID 67",
       "name": "清新檸檬藍",
       "character": "美月",
@@ -1061,7 +1061,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/94b4cdf1a00f588b7d498183ce7a1ad0066ce6d5d58a657f90477d2886079e9e.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/b342d3091b9e98f7e9a1c6e3708f1105da33a4c765e266e23b5d4654be893e41.png",
       "source": "https://aipri.com.tw/cards/2",
-      "sourceId": 67
+      "sourceId": 67,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-68",
@@ -2064,7 +2065,7 @@
     },
     {
       "uid": "official-133",
-      "code": "",
+      "code": "AP3-016",
       "catalogLabel": "第3彈 · 官方ID 133",
       "name": "晚安綿羊",
       "character": "紡",
@@ -2075,7 +2076,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/70605f9651d18ca041c92765313530bcebebe84da001d5c1ff06f1a27cd6e70c.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/b5a06cdc6aa83bb5b7a64c626196cb18441328fc879153e280854aede2c4df81.png",
       "source": "https://aipri.com.tw/cards/3",
-      "sourceId": 133
+      "sourceId": 133,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-134",
@@ -2393,7 +2395,7 @@
     },
     {
       "uid": "official-154",
-      "code": "",
+      "code": "AP3-037",
       "catalogLabel": "第3彈 · 官方ID 154",
       "name": "心形音符藏青",
       "character": "珠希",
@@ -2404,11 +2406,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/bcb04349559d40a7f4e53ed1b7cbafd28ec9f2066a50ca0d012c473d835fd46e.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/75542411d2eb78932b3475016a29e6004204834e73acf6c4ce8eac227edb226b.png",
       "source": "https://aipri.com.tw/cards/3",
-      "sourceId": 154
+      "sourceId": 154,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-155",
-      "code": "",
+      "code": "AP3-045",
       "catalogLabel": "第3彈 · 官方ID 155",
       "name": "樂園學園1年級夏季制服",
       "character": "陽葵",
@@ -2419,7 +2422,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/da80de300b2ea0c372c5a9fffe7ff6869b2fbcbf862e4555827854f00be090c9.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/fa3e1e5f20de127b19f93a8a76b6b7d0adfe63ad794ab94dbe00d3eba5ce71cd.png",
       "source": "https://aipri.com.tw/cards/3",
-      "sourceId": 155
+      "sourceId": 155,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-156",
@@ -2565,7 +2569,7 @@
     },
     {
       "uid": "official-165",
-      "code": "",
+      "code": "AP3-055",
       "catalogLabel": "第3彈 · 官方ID 165",
       "name": "酷炫偶像藏青",
       "character": "珠希",
@@ -2576,7 +2580,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/a3c858a17f9feeac1b6f6435d40ad65283fc6107841b91190476178e9fbec7c2.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/18cbdcca7bd56caee8a490b9218abff4107409ba5287628473a5b95f05395fda.png",
       "source": "https://aipri.com.tw/cards/3",
-      "sourceId": 165
+      "sourceId": 165,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-166",
@@ -2675,7 +2680,7 @@
     },
     {
       "uid": "official-172",
-      "code": "",
+      "code": "AP3-038",
       "catalogLabel": "第3彈 · 官方ID 172",
       "name": "雙星仙子派對粉紅",
       "character": "陽葵",
@@ -2686,7 +2691,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/5685df9239786100d53cc6efd82d86c4803ce044f60e5b04f517b2bd77130573.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/b091e2e9020c5ff267aae58c774238217dabd479c93a57de8f93a224d319ec3a.png",
       "source": "https://aipri.com.tw/cards/3",
-      "sourceId": 172
+      "sourceId": 172,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-173",
@@ -3106,7 +3112,7 @@
     },
     {
       "uid": "official-200",
-      "code": "",
+      "code": "AP4-022",
       "catalogLabel": "第4彈 · 官方ID 200",
       "name": "偶像公主空間Miracle Moon",
       "character": "美月",
@@ -3117,7 +3123,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/a70416f9b4e024b68c94ec19e772a7b9939756bc232281eea8013ed7cc0901d8.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/195bfd479dc78443c7ea422046065413a3205174a708f1e6eb12dd18e766daf0.png",
       "source": "https://aipri.com.tw/cards/4",
-      "sourceId": 200
+      "sourceId": 200,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-201",
@@ -3387,7 +3394,7 @@
     },
     {
       "uid": "official-218",
-      "code": "",
+      "code": "AP4-040",
       "catalogLabel": "第4彈 · 官方ID 218",
       "name": "古典圖書館員",
       "character": "愛里",
@@ -3398,7 +3405,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/789ca08de72401846fccd6ad746d54aba8c515204f2b5432209f5a6b4c533524.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/62dd4b4d563507420e3698602391e79e5ca4d3ce3c2159ccbfee0dc0f488ac98.png",
       "source": "https://aipri.com.tw/cards/4",
-      "sourceId": 218
+      "sourceId": 218,
+      "codeSource": "ocr"
     },
     {
       "uid": "official-219",
@@ -4610,6 +4618,7 @@
     {
       "uid": "official-296",
       "code": "AP6-001",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 296",
       "name": "闇黑Quartet STAR人氣螢光幻彩紅",
       "character": "闇黑櫻",
@@ -4620,12 +4629,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/3d706ef06048ff4f618bc68703514bd6adfc7bbd7e280cc57583aacf6862579e.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/b64095b6ee3739554b938dcb2061e690eb98de5eee18426be599ac3853a183de.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 296,
-      "codeSource": "ocr"
+      "sourceId": 296
     },
     {
       "uid": "official-297",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 297",
       "name": "闇黑Quartet STAR人氣螢光幻彩藍",
       "character": "闇黑珠希",
@@ -4641,6 +4650,7 @@
     {
       "uid": "official-298",
       "code": "AP6-003",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 298",
       "name": "闇黑Quartet STAR人氣螢光幻彩綠",
       "character": "闇黑愛里",
@@ -4651,12 +4661,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/82acb7b254078cc1c972dd2e4c0e5bad890e64d38cdc12f5301852b77f7539cd.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/a620c30da7a7b2d076c63efc95758c73d9ddb04addf03a77dc1e14b2eeb56902.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 298,
-      "codeSource": "ocr"
+      "sourceId": 298
     },
     {
       "uid": "official-299",
       "code": "AP6-004",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 299",
       "name": "闇黑Quartet STAR人氣螢光幻彩橙",
       "character": "闇黑琳琳",
@@ -4667,12 +4677,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/88c7bd30d60b8ab70e99509beed47f2e6bc959827c005ffc8c7b7306d2f4ec8b.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/08e9a69575c5828e1ce83addd88e0171c7d992cf529ce0ca2d7d15b7f43764aa.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 299,
-      "codeSource": "ocr"
+      "sourceId": 299
     },
     {
       "uid": "official-300",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 300",
       "name": "闇黑星願旋律",
       "character": "闇黑千依",
@@ -4688,6 +4698,7 @@
     {
       "uid": "official-301",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 301",
       "name": "闇黑星願旋律",
       "character": "闇黑千依",
@@ -4703,6 +4714,7 @@
     {
       "uid": "official-302",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 302",
       "name": "Secret Friends∞人氣螢光幻彩純潔白",
       "character": "陽葵",
@@ -4718,6 +4730,7 @@
     {
       "uid": "official-303",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 303",
       "name": "Secret Friends∞人氣螢光幻彩純潔白",
       "character": "美月",
@@ -4733,6 +4746,7 @@
     {
       "uid": "official-304",
       "code": "AP6-009",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 304",
       "name": "Secret Friends∞人氣螢光幻彩純潔白",
       "character": "紡（公主版本）",
@@ -4743,12 +4757,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/885485379e4656a7558f5277e4cb0ad7dcbc257a97168b59b8c7cd3c34cc30c0.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/cc78e6a090ab6f72f74b186015a650ce52a1d39e300717e3b229e0eeb125c9da.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 304,
-      "codeSource": "ocr"
+      "sourceId": 304
     },
     {
       "uid": "official-305",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 305",
       "name": "少女風鋼琴",
       "character": "美月",
@@ -4764,6 +4778,7 @@
     {
       "uid": "official-306",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 306",
       "name": "少女風鋼琴",
       "character": "陽葵",
@@ -4779,6 +4794,7 @@
     {
       "uid": "official-307",
       "code": "AP6-012",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 307",
       "name": "情人節情書粉紅",
       "character": "陽葵",
@@ -4789,12 +4805,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/ee98fa2810f78ff3147a6cb12c089f795aa005959f925128c55d7df0ef6b0b6d.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/c701d0aca030996275af494ced96a9d99c89693c9173876a3c67c0853092df2c.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 307,
-      "codeSource": "ocr"
+      "sourceId": 307
     },
     {
       "uid": "official-308",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 308",
       "name": "情人節情書藍",
       "character": "美月",
@@ -4810,6 +4826,7 @@
     {
       "uid": "official-309",
       "code": "AP6-014",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 309",
       "name": "情人節情書黃",
       "character": "紡",
@@ -4820,12 +4837,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/de4bd9bac2457a8f4c0efd9b481f25d5936b96ac7cdb6af4b19ea123debd26d8.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/d583d7dc3855a09e026dfc43827566bd3ff4ff22b58b65b62b7b4bef2bc161f9.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 309,
-      "codeSource": "ocr"
+      "sourceId": 309
     },
     {
       "uid": "official-310",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 310",
       "name": "浪漫唇膏",
       "character": "櫻",
@@ -4841,6 +4858,7 @@
     {
       "uid": "official-311",
       "code": "AP6-016",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 311",
       "name": "浪漫唇膏",
       "character": "千依",
@@ -4851,12 +4869,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/c29dd5bd64e8620422fb31611b6f2306d2a49ff7fb267a7ac15b99ea6e99b762.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/531e95b583cf60d98a9f002e89c8a5dbfac1ca1c66509ccaf1591016bd8399d3.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 311,
-      "codeSource": "ocr"
+      "sourceId": 311
     },
     {
       "uid": "official-312",
       "code": "AP6-017",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 312",
       "name": "西洋棋銀",
       "character": "櫻",
@@ -4867,12 +4885,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/7412ece7401d6abf49636a95c85c98182870e7ac8f0ebcf39773b7d8bb9302cd.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/b0a8aea0703b694449d440d7d752c290ac2743e3440390cf8fa2e023a027a072.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 312,
-      "codeSource": "ocr"
+      "sourceId": 312
     },
     {
       "uid": "official-313",
       "code": "AP6-018",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 313",
       "name": "西洋棋銀",
       "character": "珠希",
@@ -4883,12 +4901,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/95a32d81acdf94fe4cf611a0debc68d50176bd96cd5f95db15d7e56762e1eafc.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/10b8d2a73c3881980ba3fa2c37d266c1e3147b114cc5d434d303ed0d1913f199.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 313,
-      "codeSource": "ocr"
+      "sourceId": 313
     },
     {
       "uid": "official-314",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 314",
       "name": "繽紛糖果快樂",
       "character": "愛里",
@@ -4904,6 +4922,7 @@
     {
       "uid": "official-315",
       "code": "AP6-020",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 315",
       "name": "晚安綿羊夜",
       "character": "琳琳",
@@ -4914,12 +4933,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/53724a43ed5bf8c61d716fadf243919e877dd89e73d15b6268c7d7a79f9a2df3.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/1eada8bd41b5bd5dc0b2c29927f70399f7af87e4abf0b786a4cc94748e1bc108.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 315,
-      "codeSource": "ocr"
+      "sourceId": 315
     },
     {
       "uid": "official-316",
       "code": "AP6-053",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 316",
       "name": "公主偶像公主人氣螢光幻彩",
       "character": "陽葵",
@@ -4930,12 +4949,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/9723462eb42e7649551f3d364213a2de257972d715ec5de54852a529864395cc.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/ec3cb8b151b1f397527839288a6bad118a2410e090fa6add60bb4d1eda4f4817.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 316,
-      "codeSource": "ocr"
+      "sourceId": 316
     },
     {
       "uid": "official-317",
       "code": "",
+      "codeSource": "",
       "catalogLabel": "第6彈 · 官方ID 317",
       "name": "公主偶像公主人氣螢光幻彩",
       "character": "美月",
@@ -4951,6 +4970,7 @@
     {
       "uid": "official-318",
       "code": "AP6-059",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 318",
       "name": "公主偶像公主人氣螢光幻彩",
       "character": "紡（公主版本）",
@@ -4961,12 +4981,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/f23bceed87b7eda5e03c9248fd9d3f51c01e9f8c270a387cebad7c8524e86ed8.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/edab14f590c7b2811b50545ac6214ecbecd9360510f01acd5a0f1d9be56deb6f.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 318,
-      "codeSource": "ocr"
+      "sourceId": 318
     },
     {
       "uid": "official-319",
       "code": "AP6-021",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 319",
       "name": "偶像公主空間Scarlet Butterfly闇黑",
       "character": "闇黑櫻",
@@ -4977,12 +4997,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/751559fe9185f27684d6e7224c9ff114079c3640d81436d678bbef3a55479242.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/5f04df1a696fb7fa90debfcbc388d504370289a49ff28c793ef9de4567d17dc2.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 319,
-      "codeSource": "ocr"
+      "sourceId": 319
     },
     {
       "uid": "official-320",
       "code": "AP6-022",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 320",
       "name": "偶像公主空間Rosession闇黑",
       "character": "闇黑珠希",
@@ -4993,12 +5013,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/5757acfb5c9ab9f38fe316998fa9aceceb6b657e35fa11c3baab5ad35b21abda.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/d606b1af90c640251f37d3ae8cb152878d69c25be5fa56aa03eb92a25ba5f0e7.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 320,
-      "codeSource": "ocr"
+      "sourceId": 320
     },
     {
       "uid": "official-321",
       "code": "AP6-023",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 321",
       "name": "偶像公主空間Rainbow Candy闇黑",
       "character": "闇黑愛里",
@@ -5009,12 +5029,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/b5a6b7cedea6b11a70b4527ef03b0096253c644bb4aa1b08afe4e27f386620d6.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/6d8739a45f3a5c9c7a69f1d87e70ed90b0aaf6936efafc7a32e93df317efb034.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 321,
-      "codeSource": "ocr"
+      "sourceId": 321
     },
     {
       "uid": "official-322",
       "code": "AP6-024",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 322",
       "name": "偶像公主空間Bear Bear Bear闇黑",
       "character": "闇黑琳琳",
@@ -5025,12 +5045,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/26827199492c63ecdaaa852640bbf0299b90e8060cd21906e28077a92859e74f.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/a9889d1ffcbe53c778be965cbea61cab2bdd13636313fe755abd788a9244a29b.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 322,
-      "codeSource": "ocr"
+      "sourceId": 322
     },
     {
       "uid": "official-323",
       "code": "AP6-025",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 323",
       "name": "偶像公主空間Love My Music闇黑",
       "character": "闇黑千依",
@@ -5041,12 +5061,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/3a8b8b66250521a82b49dca83a755f5022274bfd0a4465e3641c8a840e535cdd.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/911e0ddcf25a8336e698eacc5bb5778b03d13676afa83139054d81f51203fb00.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 323,
-      "codeSource": "ocr"
+      "sourceId": 323
     },
     {
       "uid": "official-324",
       "code": "AP6-026",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 324",
       "name": "偶像公主空間Poppin' Heart",
       "character": "陽葵",
@@ -5057,12 +5077,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/a83b247d4698bf1d1e2fac9fb21a67ecb4a0e4f0318299690c4155c3880acbf7.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/9441425c0158a45e74f725c397e911192c796236269d5589b6bdea77076c314f.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 324,
-      "codeSource": "ocr"
+      "sourceId": 324
     },
     {
       "uid": "official-325",
       "code": "AP6-027",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 325",
       "name": "偶像公主空間Miracle Moon",
       "character": "美月",
@@ -5073,12 +5093,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/6a8a4f9203f386878fb591f54580ea4307c9372650aae9ed56b07eac7d2ce550.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/128be2c7730b9aa0c8aaffa1f584667ed1e57b62f4256b93f919ad80cdaa3b40.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 325,
-      "codeSource": "ocr"
+      "sourceId": 325
     },
     {
       "uid": "official-326",
       "code": "AP6-028",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 326",
       "name": "偶像公主空間Flower March公主",
       "character": "紡（公主版本）",
@@ -5089,12 +5109,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/3bfdc2a6d1f08eabfe98dc6bbcda945c323a83146dd560d48d8841f7c2f5acc2.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/0abc403c33951e1900ccf63daead2d8fcf7443178c929cbe29d69af341ca8f80.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 326,
-      "codeSource": "ocr"
+      "sourceId": 326
     },
     {
       "uid": "official-327",
       "code": "AP6-029",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 327",
       "name": "旋律合唱",
       "character": "珠希",
@@ -5105,12 +5125,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/eb39b5a9d55f92956e07e23bbaa665e95deb2ecc59f56fa61d727f81d9616de6.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/c1773b2dfdba6678fc645170526b7dc7a825c574c0a7a1447dc86e8911ac9073.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 327,
-      "codeSource": "ocr"
+      "sourceId": 327
     },
     {
       "uid": "official-328",
       "code": "AP6-030",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 328",
       "name": "旋律合唱",
       "character": "櫻",
@@ -5121,12 +5141,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/ee08594a87e1d9618e898c7e0569a20b4425cff79778909a50a48cf87ad0ac1b.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/4316910c55981bb4d5116454a984b4b0973b91d61448d292c052ce8d4e74452a.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 328,
-      "codeSource": "ocr"
+      "sourceId": 328
     },
     {
       "uid": "official-329",
       "code": "AP6-031",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 329",
       "name": "潮流進行曲",
       "character": "愛里",
@@ -5137,12 +5157,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/fa028ae19ff4501690a8513149723a9a850bff60b7c4631abb3a8cf58c41c341.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/294605d5d095a37bc709bb87726b3db1d8ca67de0b5866371ddd417562739187.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 329,
-      "codeSource": "ocr"
+      "sourceId": 329
     },
     {
       "uid": "official-330",
       "code": "AP6-032",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 330",
       "name": "潮流進行曲",
       "character": "陽葵",
@@ -5153,12 +5173,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/09ed673ad8626b70196fc9ded865fc98ba1eebdf5d6fa1020e12c85ffd5db085.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/db1b684baa319ba68e23ad8cccce62e051cca1f41e7e84d7489578d7a01dd85a.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 330,
-      "codeSource": "ocr"
+      "sourceId": 330
     },
     {
       "uid": "official-331",
       "code": "AP6-033",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 331",
       "name": "古典小提琴",
       "character": "琳琳",
@@ -5169,12 +5189,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/ef72b1bcea0f060315d3cf30a2ebc99d483cbf72b01b8da964e0d71051914b22.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/6d55e0ff737c555ee4f0a05dde16ce70eb1cbcd70c46b041b3bee41693b84fb6.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 331,
-      "codeSource": "ocr"
+      "sourceId": 331
     },
     {
       "uid": "official-332",
-      "code": "",
+      "code": "AP6-034",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 332",
       "name": "古典小提琴",
       "character": "美月",
@@ -5190,6 +5210,7 @@
     {
       "uid": "official-333",
       "code": "AP6-035",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 333",
       "name": "星星音符紫",
       "character": "千依",
@@ -5200,12 +5221,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/dcb8ba6800aa4e13ca7dcba947ee448e7f20b192d5728d7e54a063efb2375720.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/256dd8e4f0a704ec51ed07299bcdeb841891c0210decf2d19df06f971cc7c1bf.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 333,
-      "codeSource": "ocr"
+      "sourceId": 333
     },
     {
       "uid": "official-334",
       "code": "AP6-036",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 334",
       "name": "星星派對薄荷莓果",
       "character": "陽葵",
@@ -5216,12 +5237,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/781dcd5596dc6c798bbe15340da445e33946a877dbc228a736199d7c87f16fd6.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/fdd82e062d7d62bb0f91183534567500b0d36d7a0bfcbb825e7313fbfa05d360.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 334,
-      "codeSource": "ocr"
+      "sourceId": 334
     },
     {
       "uid": "official-335",
       "code": "AP6-037",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 335",
       "name": "星星音符熱情",
       "character": "美月",
@@ -5232,12 +5253,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/9125b6735cdb2b4c37db56564a2f119214e38245d7b6800029919b16b06329e7.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/ed6f759a3232cf950e87be1bed3d2c3882d30b31ed1c81c76f55ad1ccb59ac44.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 335,
-      "codeSource": "ocr"
+      "sourceId": 335
     },
     {
       "uid": "official-336",
       "code": "AP6-038",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 336",
       "name": "樂園學園1年級制服",
       "character": "陽葵",
@@ -5248,12 +5269,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/f0ff0907447848f7f5be21a9e8e42c51195b6b4341f01765638d889fbfcf641f.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/9cc1054caa2d832c6a0aa59b281499aeabaf698c2d312c062d7d38833810301c.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 336,
-      "codeSource": "ocr"
+      "sourceId": 336
     },
     {
       "uid": "official-337",
       "code": "AP6-039",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 337",
       "name": "樂園學園1年級制服",
       "character": "美月",
@@ -5264,12 +5285,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/bd6dd299d42a397d906a069a224ed816375c6c5752fee5afa91965a803bfbd64.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/a0de3fb7aa62cafe8b77c9504e06294e4eaf91834b2ee6755a4386984ce86d62.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 337,
-      "codeSource": "ocr"
+      "sourceId": 337
     },
     {
       "uid": "official-338",
       "code": "AP6-040",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 338",
       "name": "樂園學園1年級制服",
       "character": "千依",
@@ -5280,12 +5301,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/40ae48deb61959c5c9b7c0425295b11f6278fde3239cc5e196216466e7401fde.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/5d10887a02883078dee7624f4038bc31fb0a2ec195f33026500def7a2f1bf72b.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 338,
-      "codeSource": "ocr"
+      "sourceId": 338
     },
     {
       "uid": "official-339",
-      "code": "",
+      "code": "AP6-041",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 339",
       "name": "可愛偶像清新草莓",
       "character": "愛里",
@@ -5301,6 +5322,7 @@
     {
       "uid": "official-340",
       "code": "AP6-042",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 340",
       "name": "可愛偶像清新草莓",
       "character": "琳琳",
@@ -5311,12 +5333,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/d0d1c4043abc51999d9f738b64d1a57f7165aa8b64eaee0028743371c4d84d20.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/9723b991596ff7afa73dc35974702ff416a4801893cb179d5bccc89e725ec30c.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 340,
-      "codeSource": "ocr"
+      "sourceId": 340
     },
     {
       "uid": "official-341",
       "code": "AP6-043",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 341",
       "name": "酷炫偶像橙藍",
       "character": "美月",
@@ -5327,12 +5349,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/c3851dc42320e76e38003c56f083d202f771098cf5ee1d8ab653588c73e39c28.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/4fceabd21ecd7a6fd018399cb1a37e73edc973eaab062da1fcd4d38cead58752.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 341,
-      "codeSource": "ocr"
+      "sourceId": 341
     },
     {
       "uid": "official-342",
-      "code": "",
+      "code": "AP6-044",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 342",
       "name": "酷炫偶像橙藍",
       "character": "紡",
@@ -5347,7 +5369,8 @@
     },
     {
       "uid": "official-343",
-      "code": "",
+      "code": "AP6-045",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 343",
       "name": "快樂啦啦隊葡萄蘇打",
       "character": "陽葵",
@@ -5363,6 +5386,7 @@
     {
       "uid": "official-344",
       "code": "AP6-046",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 344",
       "name": "快樂啦啦隊葡萄蘇打",
       "character": "千依",
@@ -5373,12 +5397,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/b3200217d8791ba576939ca7fbc0ff91b2195b03668c962b578ff12fee858268.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/5d2270e8c872a48fb71d39b977d54207ab0627d9e0e86cb514fb8c347fa78372.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 344,
-      "codeSource": "ocr"
+      "sourceId": 344
     },
     {
       "uid": "official-345",
       "code": "AP6-047",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 345",
       "name": "輕便水手服祖母綠",
       "character": "美月",
@@ -5389,12 +5413,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/26f9dfa2a98b149a85397724163be3b9c8fd4414a9164e0a520913052e351e65.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/29f99ef69c3b5be7d3a58b380c4148b8d531d157e2cdd4bfbdc78a66f8a4c6de.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 345,
-      "codeSource": "ocr"
+      "sourceId": 345
     },
     {
       "uid": "official-346",
       "code": "AP6-048",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 346",
       "name": "輕便水手服祖母綠",
       "character": "陽葵",
@@ -5405,12 +5429,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/ebd22cdaadb3df49709c4ee5e3da4f1f58b1a32134262ec068c6b76b28687336.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/16607db2c9e9704bfdfb965ad6e7e7a368516756cde624f3a29116a95b7e4f5d.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 346,
-      "codeSource": "ocr"
+      "sourceId": 346
     },
     {
       "uid": "official-347",
       "code": "AP6-049",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 347",
       "name": "櫻的艾姆",
       "character": "櫻",
@@ -5421,12 +5445,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/93f7ceb9f205047c583d69294c4792041c0155f57420be7f19585423b1f63a68.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/e69858107c16c6c248b023c93beed95a0626ba7f223cb885876c4283075f0213.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 347,
-      "codeSource": "ocr"
+      "sourceId": 347
     },
     {
       "uid": "official-348",
       "code": "AP6-050",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 348",
       "name": "珠希的艾姆",
       "character": "珠希",
@@ -5437,12 +5461,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/5dddd9f96d8cf6115ba61e7619789efa6a0a0b4762c1495a40336496f741dd37.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/d3c6542c2957b42336b87fd1e8bc405595fa376a61f903191286ca2df45fbbcc.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 348,
-      "codeSource": "ocr"
+      "sourceId": 348
     },
     {
       "uid": "official-349",
       "code": "AP6-051",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 349",
       "name": "愛里的艾姆",
       "character": "愛里",
@@ -5453,12 +5477,12 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/0e1804adf1d51b63a74d0ba2c45258dcc03970af29ec7ca62352c23e930a7423.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/e602a38895f8a6f8b890932fb43f91bbe5568085fa66c307e9c76ca046cb0476.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 349,
-      "codeSource": "ocr"
+      "sourceId": 349
     },
     {
       "uid": "official-350",
       "code": "AP6-052",
+      "codeSource": "ocr",
       "catalogLabel": "第6彈 · 官方ID 350",
       "name": "琳琳的艾姆",
       "character": "琳琳",
@@ -5469,9 +5493,8 @@
       "sourceFront": "https://aipri.com.tw/uploads/images/d034f8a8bf7beeeb7a3208b4eb19d8e31e2f52b3c3553bcae0713ad6fccae201.png",
       "sourceBack": "https://aipri.com.tw/uploads/images/eed16b9eda2587512bd81751e7cafa58791c9fae06da534297b2bc933e60c753.png",
       "source": "https://aipri.com.tw/cards/6",
-      "sourceId": 350,
-      "codeSource": "ocr"
+      "sourceId": 350
     }
   ],
-  "version": "16da209c3d78cd7c"
+  "version": "b29f9b44ccf3d20e"
 }
