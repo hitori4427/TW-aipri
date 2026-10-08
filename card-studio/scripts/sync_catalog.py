@@ -3,6 +3,7 @@
 import argparse, concurrent.futures, hashlib, io, json, re, time, urllib.request
 from pathlib import Path
 from PIL import Image
+from catalog_support import merge_supplemental, write_catalog
 ROOT=Path(__file__).resolve().parents[1]
 def fetch(url):
  for attempt in range(3):
@@ -53,7 +54,7 @@ def main():
     except Exception as e:errors.append(str(e))
   print(f'Set {season}: downloaded',flush=True)
  if errors:raise RuntimeError('Incomplete sync; prior catalog retained: '+str(errors[:5]))
- cards=sorted(allcards.values(),key=lambda c:(c['set'],c['sourceId']));payload={'schemaVersion':1,'cards':cards};encoded=json.dumps(payload,ensure_ascii=False,separators=(',',':'));version=hashlib.sha256(encoded.encode()).hexdigest()[:16];payload['version']=version
- (ROOT/'data').mkdir(exist_ok=True);target.write_text(json.dumps(payload,ensure_ascii=False,indent=2));(ROOT/'data/catalog.js').write_text('window.CARD_CATALOG='+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n');(ROOT/'data/version.json').write_text(json.dumps({'version':version,'count':len(cards)},indent=2))
+ cards=merge_supplemental(ROOT,list(allcards.values()))
+ version=write_catalog(ROOT,cards)
  print(f'Catalog ready: {len(cards)} cards, version {version}',flush=True)
 if __name__=='__main__':main()

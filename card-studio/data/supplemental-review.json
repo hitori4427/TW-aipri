@@ -1,0 +1,1495 @@
+{
+  "source": "https://script.google.com/macros/s/AKfycbzNaO9kOfBLwlfEnqez9WC_eqFO7Tgp_SqEomw3UTG9NJ1EssHRjKsEFHRz9HknSND5/exec",
+  "checked": 51,
+  "included": 51,
+  "excluded": 0,
+  "cards": [
+    {
+      "code": "AP1-001P",
+      "relatedUid": "official-1",
+      "character": "陽葵",
+      "sourceName": "Poppin' Heart人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1Zi-KwC87UBmO1ln3bqF6PCxH3jVA8qRd&sz=w600",
+        "sha256": "baefeda1c9cec5d575cf00066dd775bc9e05fb2758b26dddfcf93a82e4ca714b",
+        "size": [
+          600,
+          888
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1Jg9RXuawipxsy2BIubO8eq0p8tY8Ijhn&sz=w600",
+        "sha256": "0b051d7f3551d8acf90f7bd863539d8b7791a87cdcbe2eb14eca7020894a104f",
+        "size": [
+          600,
+          890
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP1-002P",
+      "relatedUid": "official-2",
+      "character": "美月",
+      "sourceName": "Miracle Moon人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1w81pV7yGnH6sirgCeVClko4N1-G-vmvw&sz=w600",
+        "sha256": "7365ea07f9d40000ec8915a6a7f6e672fa859ad4ef9f39bbee29d6c9806d40c4",
+        "size": [
+          600,
+          890
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1lRRv0sqrb1OvFt9NvXSFNbKhFAqqCwXM&sz=w600",
+        "sha256": "743b980089594a195fb408bc508fbeb42584abd62e095649d90612429517e76e",
+        "size": [
+          600,
+          904
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP1-003P",
+      "relatedUid": "official-3",
+      "character": "櫻",
+      "sourceName": "Scarlet Butterfly人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1KvDPf2RNeIM66NxXXHJFG2nVNXFk426V&sz=w600",
+        "sha256": "139e3d06da1bbf449fdb8315e00ac38d3248f0f74bc047c3a6727a7d761ffe82",
+        "size": [
+          600,
+          842
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=14akjkE2WuuLMHBXWfATT1AKnHRWZnn3q&sz=w600",
+        "sha256": "9b293563f145c0edab7f93f36bf7b361c74a07c224f93b4efdc6e016ad4e96cc",
+        "size": [
+          600,
+          881
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP1-004P",
+      "relatedUid": "official-4",
+      "character": "陽葵",
+      "sourceName": "俏皮可愛兔寶寶",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1p4D5C5b53yXIVHI8poPGW7wBTPvkTd3z&sz=w600",
+        "sha256": "98af9c10b29cb486a8f27d93503a563c47b0da19f1eae0f32f754a941b5e036d",
+        "size": [
+          600,
+          881
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1nDsGM22ra2VGpoTNg5Z75SlqQIuw5ASp&sz=w600",
+        "sha256": "7318b92f8746097fd1078a10e12ad8658f656853b27ef16021cb2f1b5a05806d",
+        "size": [
+          600,
+          895
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP1-018P",
+      "relatedUid": "official-18",
+      "character": "陽葵",
+      "sourceName": "生日快樂！陽葵",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1F5UrcY_8jPmeqLmiO8Ey98jP4BU14DdQ&sz=w600",
+        "sha256": "3f4c6afabe41d33157da4f6fb2cdc1f886eebab071c1a12252497ad1477e1024",
+        "size": [
+          600,
+          875
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1DCndhKLP8gDYY04fZzJSSijh4TXyj6fM&sz=w600",
+        "sha256": "6741c1c529bc5aaae503418ad9f19bbd8ba92b117f9fca7f7e03743cf456fb5b",
+        "size": [
+          600,
+          872
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP2-001P",
+      "relatedUid": "official-60",
+      "character": "紡",
+      "sourceName": "Flower March人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1GRFs9ZKR9mdiTiISFmvIaxsx9BEXZP1w&sz=w600",
+        "sha256": "6ec21e4705ba12c0c61482a373c631b235800529659d2f6c321fdd40fde75d41",
+        "size": [
+          600,
+          904
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1R2HrDI7H5ySqa6g2kXgLSZyfAkBCfGhU&sz=w600",
+        "sha256": "9274bbd7109b2bb7017800ee8bbd1de7a145c67d48500dd22736870a2240654c",
+        "size": [
+          600,
+          866
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP2-002P",
+      "relatedUid": "official-61",
+      "character": "珠希",
+      "sourceName": "Rosession人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1DuaVzBQDu0oAHqYo_Ys_BF2XXVNX_5Wi&sz=w600",
+        "sha256": "8ba314d301dd9f7c74a6a0665a06217f38589f47bd0f5302d5ee5bca570354cf",
+        "size": [
+          600,
+          876
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1OsIBcCuMWM1umxOVgn2O5uuJ8xtCxaAa&sz=w600",
+        "sha256": "d6cff05fb56a7ee07db969344df4f94140bc8b93c2c5cd88fa8d75c6a01809da",
+        "size": [
+          600,
+          873
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP2-005P",
+      "relatedUid": "official-64",
+      "character": "櫻",
+      "sourceName": "薔薇大賽",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1JVWsJnvWdJmotlzk-IQrXVR_yErGyEJM&sz=w600",
+        "sha256": "990e7a0bf9afcc4c51dbd32e8e0c24401653bebf2504b2b4ea5c901425a644ca",
+        "size": [
+          600,
+          880
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1f022c8vgWXKTh5cd0668CwOsWfCkE4_3&sz=w600",
+        "sha256": "3fdd7d7276db47b70cbdece5413fe64ae47b416472877cf677a04cc48e516a53",
+        "size": [
+          600,
+          879
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP2-009P",
+      "relatedUid": "official-68",
+      "character": "美月",
+      "sourceName": "貓咪魔術師",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1Oui_izcTLjGEd4tc4-KXG3jOHBfJD8Tg&sz=w600",
+        "sha256": "29c68f911dae179aa30bc6857882760964dd664b25f78aecacd4431180e1b38f",
+        "size": [
+          600,
+          876
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1kCjRyCIhFg-Q-DCLWeMyZ9FPKlq-P8hW&sz=w600",
+        "sha256": "f7fc578e00af721d98ecb1c4723e130fa55bc433ba5b37cd3f3fdb66c55b9f6c",
+        "size": [
+          600,
+          886
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP3-001P",
+      "relatedUid": "official-118",
+      "character": "陽葵",
+      "sourceName": "Secret Friends∞人氣螢光幻彩粉紅",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1yVRUgwj7nGZqc6GQH6hGGbrvYLZMbPz7&sz=w600",
+        "sha256": "e8eda35c732a4e6ceffacc8382a31da9553537caeb8e50592b86bed923f069e3",
+        "size": [
+          600,
+          872
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1o09y9vtHHgwJ0fnft7Zg9dKO3tF-u9sg&sz=w600",
+        "sha256": "e8037c07bb87d3bb65940710a8384851d60989e2ccb07168b08ad9cf8628c5fa",
+        "size": [
+          600,
+          871
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP3-002P",
+      "relatedUid": "official-119",
+      "character": "美月",
+      "sourceName": "Secret Friends∞人氣螢光幻彩藍",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1V8VnhJasP4CcuAmL7QTs9jkRgHkJjFSU&sz=w600",
+        "sha256": "c319c22a75d66cd94082274436c09d63d65308ec3e81eebbb4ea423ce9d3733a",
+        "size": [
+          600,
+          861
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1vDKAjvOBzzWRGEt1hiLY4BfRqaRSOXrC&sz=w600",
+        "sha256": "988a88597292083f4ebb8c3f5f04dce5a0c44c41a02070dbbaf2e0a4a25badbc",
+        "size": [
+          600,
+          874
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP3-003P",
+      "relatedUid": "official-120",
+      "character": "紡",
+      "sourceName": "Secret Friends∞人氣螢光幻彩黃",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1EhLoj57SVXRGIEzT1Cf7iyBzHvevP4YH&sz=w600",
+        "sha256": "563f632135f70873bf36bff7424eda88a01c97ed308180f75d9f1bad96ad81e5",
+        "size": [
+          600,
+          886
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1m1g2_mmdztpfuNqlA147KMH3byag3Mv_&sz=w600",
+        "sha256": "50130313026adbb9368843f6b37f13b0ef3f23e9c28577d15c0615b5b892d9be",
+        "size": [
+          600,
+          873
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP3-018P",
+      "relatedUid": "official-135",
+      "character": "紡",
+      "sourceName": "生日快樂！紡",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1xMjre24LgANZAytsmn-Spc3hEs3BFmxg&sz=w600",
+        "sha256": "8d8f729f8a0172253773ac0cfe94679be1476362e1d6e0b8c5383d0d7f7e6bbe",
+        "size": [
+          600,
+          935
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1ICUQmpqr5ARFN0PxpORYbeJQD5tlCG_0&sz=w600",
+        "sha256": "a5acc0b9b379af1a40b2d68924e28bc6b6a261cd5fcbe48850e0163882c51ff6",
+        "size": [
+          600,
+          885
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP4-001P",
+      "relatedUid": "official-179",
+      "character": "櫻",
+      "sourceName": "Quartet STAR人氣螢光幻彩紅心",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1KF79qmyvyhgzBBaIayuRPpyhirdmv3VF&sz=w600",
+        "sha256": "f3d4e7d2cba135497561bfdb6d313c4a058f2d6f87bf6d33aeb111743e9d7966",
+        "size": [
+          274,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1YApVoNjF4ta5xT294hoURbKOtKM_cXfg&sz=w600",
+        "sha256": "e11cec48fb5e88c7ebec25350129c24384c3e9c2f517f95fa6e839555f02410c",
+        "size": [
+          600,
+          877
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP4-002P",
+      "relatedUid": "official-180",
+      "character": "珠希",
+      "sourceName": "Quartet STAR人氣螢光幻彩黑桃",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": false,
+      "decision": "included-front-only",
+      "reason": "Source back is BACK placeholder; no real back image",
+      "sourceFront": "https://drive.google.com/thumbnail?id=1zdntzbc7dn1koVsw2awrxgswEIrDg8mc&sz=w600",
+      "note": "簽名與正面已確認；來源背面是 BACK 佔位圖，不予收錄",
+      "front": {
+        "code": "AP4-002P",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1zdntzbc7dn1koVsw2awrxgswEIrDg8mc&sz=w600",
+        "proxy": "https://images.weserv.nl/?url=https%3A%2F%2Fdrive.google.com%2Fthumbnail%3Fid%3D1zdntzbc7dn1koVsw2awrxgswEIrDg8mc%26sz%3Dw600",
+        "file": "/tmp/aipri-signature-review/raw/AP4-002P_front.jpg",
+        "size": [
+          273,
+          400
+        ],
+        "sha256": "7a22ae8e52f6a1ca60260812eb35142c28afb13dda863221b9947506d57cc733"
+      }
+    },
+    {
+      "code": "AP4-003P",
+      "relatedUid": "official-181",
+      "character": "愛里",
+      "sourceName": "Quartet STAR人氣螢光幻彩方塊",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1d0R16BRg3-xJQGwzf7yRHscslGDbF8t5&sz=w600",
+        "sha256": "0558b72e7f0532436a567ac59c914bcf50dc4503df77ff00d9a56ad7869cb2f4",
+        "size": [
+          600,
+          876
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=17Q44wYGAa_UzqxOBPU-GrbiPFd6DutGk&sz=w600",
+        "sha256": "f1fd0f46ff8794781f24d78533d610b0521c41c222109f4bbdd118d94459fcdb",
+        "size": [
+          600,
+          875
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP4-004P",
+      "relatedUid": "official-182",
+      "character": "琳琳",
+      "sourceName": "Quartet STAR人氣螢光幻彩梅花",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=112EBTkO6fnDkvyALG9y_2slpGurpsHBs&sz=w600",
+        "sha256": "baf8648b569847c61ce6796919d99e337f3092f0f9036a0c58fd8f11b48c54bf",
+        "size": [
+          600,
+          877
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1Gra4BnxNsiVP4GUdwxJu3YUq5r51zKzc&sz=w600",
+        "sha256": "fc6526a6e579befa7bd7880e8fbada8fac9a7a08836ee82c92d0a218aa2a9e41",
+        "size": [
+          600,
+          911
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP4-005P",
+      "relatedUid": "official-183",
+      "character": "千依",
+      "sourceName": "Love My Music人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=16CAyXj2ll3yeRaDRWzuj3W3Q_APWDNcw&sz=w600",
+        "sha256": "e25f3083a1afbac4902ba7c8ed07058709bced4be8a5cae0a06853b4da77b94e",
+        "size": [
+          600,
+          885
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1tfp8hCtSh9r9fs5riUO6UCWNy5I2odSA&sz=w600",
+        "sha256": "d35d2201cee521a9b123da60f182288c7a228c7025afc99e18ad226344925eb5",
+        "size": [
+          600,
+          885
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP4-019P",
+      "relatedUid": "official-197",
+      "character": "櫻",
+      "sourceName": "生日快樂！櫻",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1d7voLOe0ThBF8TseVatymjGek4XOmEaB&sz=w600",
+        "sha256": "a064529dc363309f1d7f17828ae7c997a09b23ec2517ec0b255ba9fb3c0f42f7",
+        "size": [
+          600,
+          881
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1-ysjuNKXUKJn_H2j7b-O9JjBuOwnawqF&sz=w600",
+        "sha256": "0dba3ccc9cbdbf9a0a1d3837a2468c515057ed758f087fcb594297a4acf8897e",
+        "size": [
+          600,
+          874
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP5-001P",
+      "relatedUid": "official-240",
+      "character": "紡（公主版本）",
+      "sourceName": "Flower March公主人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1qXJqD1TbmOhgQHhSPSmfR-2aJ2YZVpgB&sz=w600",
+        "sha256": "e3805e07522d644ccabaf47015232edf2c9cba39ae1588110ce618b601fc70bf",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1jfbaTlr7reZbaZZvWa3YrBT68c9Qjkxh&sz=w600",
+        "sha256": "397a22922fcefdd2ba7c49f0b9d58e8fc0704b4cd6eaf474318b1888c5d0412e",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP5-004P",
+      "relatedUid": "official-243",
+      "character": "紡（公主版本）",
+      "sourceName": "極光白雪大賽",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1-BVpHN2tf66ytkyoOxHmJA0599kab7O1&sz=w600",
+        "sha256": "8835408319a17f670300247b29c9382ed4f742591fb215513a24429349110b65",
+        "size": [
+          600,
+          868
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1X3n5aJVnkayOaWwayvb8hQ8bE4VRYNXW&sz=w600",
+        "sha256": "29edbe141a914d793b0f4a1b0705b00cfe48d43dcda1f2eabdec9501a464df0f",
+        "size": [
+          600,
+          887
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP5-012P",
+      "relatedUid": "official-251",
+      "character": "美月",
+      "sourceName": "特殊耶誕節白",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1fb0bpcq2ckc0_60QOiqGdOTM6gJFUJ-V&sz=w600",
+        "sha256": "e5c2556a2adad4b3e721e66c48474123cece88bd397833afbc6ada057deae8d3",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1LrjapT1WOwGPZj_BwXuIAPzHEIl-LMXv&sz=w600",
+        "sha256": "97d8209d0377a712bf130541ef19e3d93c155bf4099490a3d25e027fa6875ebf",
+        "size": [
+          272,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP5-013P",
+      "relatedUid": "official-252",
+      "character": "陽葵",
+      "sourceName": "蹦蹦跳跳兔寶寶",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=13MWLlxI43AIcyX6a4w0hIniQLKAmsXzd&sz=w600",
+        "sha256": "c15ac485565e8ee7dd68a03aaac5599c75edc24735a933a3e707e8988106ec21",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1XkLvOTyoOSMdCMFC9jc86VbsCP2pbHRT&sz=w600",
+        "sha256": "4da31077aa6f93f20f13fbb12f67baa8172c27fefc15241dcffc724f84092b72",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP6-002P",
+      "relatedUid": "official-297",
+      "character": "闇黑珠希",
+      "sourceName": "闇黑Quartet STAR人氣螢光幻彩藍",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=16pfu2QV3aHTcSCxlcUiNqDY2l5FMxt83&sz=w600",
+        "sha256": "20beb73974f12e7204bd95ca5a33f4f628f3fb735959db4ee9ad575bccd6f272",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1R8IS5BmjsOIz4BF0rk71ggll1ImZ28GV&sz=w600",
+        "sha256": "258a15ec3397a720976de9eeba19ed29ca98c77c42d27902bca5e6218a76d3ce",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "P版隱藏造型，未見手寫簽名"
+    },
+    {
+      "code": "AP6-003P",
+      "relatedUid": "official-298",
+      "character": "闇黑愛里",
+      "sourceName": "闇黑Quartet STAR人氣螢光幻彩綠",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=133moH-Ipp8eCpItTdex1BIHIADJv3T7W&sz=w600",
+        "sha256": "d09a7d95b97bdf149d4df3c62c750a958fd2ebec10ca14eb3bea5a660b5d1950",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1EWjDqMOiyXT9x1ybnZrKKMPCa1ON-atF&sz=w600",
+        "sha256": "daf22983e0f4c6aea3ff5b332e7acd67f5ced2b05fcb70b1157c1eaa221c793a",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "P版隱藏造型，未見手寫簽名"
+    },
+    {
+      "code": "AP6-014P",
+      "relatedUid": "official-309",
+      "character": "紡",
+      "sourceName": "情人節情書黃",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=12Mjilg2FoO28592KjtNhnKCyZq6SeBZZ&sz=w600",
+        "sha256": "6cf464830cf74065e932c7cd4d8cde29ae27fe8e3ca61d05546cae969a225834",
+        "size": [
+          275,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1jOGOm7-LEFqSTWidw4UTTPnUszLQKeKb&sz=w600",
+        "sha256": "5c0b09a235f6e9ff0cb717a63b9bf738060b93d95e02405820ba0bd16c0bcee2",
+        "size": [
+          274,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP6-053P",
+      "relatedUid": "official-316",
+      "character": "陽葵",
+      "sourceName": "公主偶像公主人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1HmqKL-zus1H6JhMZPTXfGs5rHyuf7HQE&sz=w600",
+        "sha256": "1f7c3d812856043a3b3ef7dfd163eae47aeb7e4250a4800e34e8986050b04766",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1mm95Q2m_cNOuBE9p_mIH28qhrW7jSdCx&sz=w600",
+        "sha256": "21559d67ce0d970218d0ce8ed468208787bff6ed96c9e3f9cdea193f422e39b6",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "code": "AP6-054P",
+      "relatedUid": "official-317",
+      "character": "美月",
+      "sourceName": "公主偶像公主人氣螢光幻彩",
+      "reviewedAt": "2026-10-08",
+      "crop": "none",
+      "pairChecked": true,
+      "decision": "included",
+      "front": {
+        "source": "https://drive.google.com/thumbnail?id=1y9O6qEZgPUmgcAO9m0iinjQR_RO_tGlK&sz=w600",
+        "sha256": "ebbd85be5dc3e32791dfadf0b430bbe66adb34bce1ba684ecc1ab061ca9aaab3",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "back": {
+        "source": "https://drive.google.com/thumbnail?id=1ovdk1NV9qId1mbq7fIxPio0PlT1OLcqi&sz=w600",
+        "sha256": "b0790591288e8113415d81fb3603935dde57ca56f689ec9eb1a3b15350697e84",
+        "size": [
+          273,
+          400
+        ]
+      },
+      "note": "目視可見簽名；正反面角色與造型一致"
+    },
+    {
+      "uid": "supplement-event-d8c915bc848c46f7",
+      "code": "人氣螢光幻彩試鏡",
+      "sourceName": "Scarlet Butterfly人氣螢光幻彩",
+      "character": "櫻",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-01",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1NOrlGbTPM8sLB9-MKWz7fHfmr1kgKIwb&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-01_front.jpg",
+        "size": [
+          600,
+          876
+        ],
+        "sha256": "0ab247c6be9ba07f19bd208bec01cbce883a0149af8b7f4c1239684afa965edf"
+      },
+      "back": {
+        "reviewId": "event-01",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1_3UF0G3BBCKf8R-fE5b91fZ2E4HaUSCS&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-01_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "065dbd76975353b7d2ad82a33ad8c87031fef8425cc73254c2b108e884785eff"
+      }
+    },
+    {
+      "uid": "supplement-event-74d2ab7fdb621bb8",
+      "code": "上市100天慶祝活動",
+      "sourceName": "俏皮可愛兔寶寶紅",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-02",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1U0V6jBj_6s03TpjsqXpGH9VlGX-QfDJ0&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-02_front.jpg",
+        "size": [
+          600,
+          893
+        ],
+        "sha256": "bb251dc4ef54ae09b6d702c9151058f2fcdaad23e0e39865d95a9fd3e7c3e9e4"
+      },
+      "back": {
+        "reviewId": "event-02",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1FJRXV5k_7cXEeJdeVDJTw24xbAden62k&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-02_back.jpg",
+        "size": [
+          600,
+          877
+        ],
+        "sha256": "602f4f8e92a18cc9bb51ef2e459368b6b4a708a7187e39bc5db63f9e56e580ba"
+      }
+    },
+    {
+      "uid": "supplement-event-b3782bfa8729c5c5",
+      "code": "上市紀念！免費機台體驗會",
+      "sourceName": "偶像公主空間Poppin' Heart",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-03",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1bIK6n-DoYYZZA826KC8Ol3v7__h9T80_&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-03_front.jpg",
+        "size": [
+          600,
+          873
+        ],
+        "sha256": "7a13e32b4f90a74baa6b93dbf16cf9d5137cf6ccc93b63e09a009bf0b3d547e3"
+      },
+      "back": {
+        "reviewId": "event-03",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1NbnIkcQ5ZL1m5QmJICFciMzSjwwjODDs&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-03_back.jpg",
+        "size": [
+          600,
+          888
+        ],
+        "sha256": "e4cffba12b17e566579a4f9b8d1d2f76307d683766c9c3b1e7faf1ffd547792b"
+      }
+    },
+    {
+      "uid": "supplement-event-7407793363df689c",
+      "code": "先行免費機台體驗會",
+      "sourceName": "偶像公主空間Miracle Moon",
+      "character": "美月",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-04",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1mf6JRYE5xXFF-GFH4rji4DolL1gZG_Em&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-04_front.jpg",
+        "size": [
+          600,
+          896
+        ],
+        "sha256": "b251b2f3f687650bf0a760b4fad8a12c342a997fcd7cb4461dc227fe4f3d7494"
+      },
+      "back": {
+        "reviewId": "event-04",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1PYfZCT5Ez8FFn3aDf4nYCfA4d9wWRfvB&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-04_back.jpg",
+        "size": [
+          600,
+          896
+        ],
+        "sha256": "de56b7d1d77cbdbdc6a607000b1d55002c520896912ff57aaffcc7b04a8e7a0b"
+      }
+    },
+    {
+      "uid": "supplement-event-58bca00cc943e6d3",
+      "code": "先行免費機台體驗會（出示星夢票卡）",
+      "sourceName": "Poppin' Heart人氣螢光幻彩薄荷",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-05",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1dPWFIVV48os98AttdepQHwX30NiodMlS&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-05_front.jpg",
+        "size": [
+          600,
+          885
+        ],
+        "sha256": "cc4833e2e9d23133e4be103045860fd45a4f33c1f97f49df8c1ab0fb7465efe9"
+      },
+      "back": {
+        "reviewId": "event-05",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1ELDveOC04fKCst8qAW6Ay-lS_8hekseM&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-05_back.jpg",
+        "size": [
+          600,
+          922
+        ],
+        "sha256": "632330967905e916a59a3864a39f648ad0f9b6b876d525a76aca88d73a215674"
+      }
+    },
+    {
+      "uid": "supplement-event-d95e834f11cace2e",
+      "code": "店鋪賽參賽獎 2026/3月",
+      "sourceName": "薔薇大賽貴族藍",
+      "character": "櫻",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-06",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1Pod-4nbVa69kbEhfrrldTOw_D9Mqeag5&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-06_front.jpg",
+        "size": [
+          600,
+          892
+        ],
+        "sha256": "04de5a20290aea3e13fd21cd16bc8fd43c0b52b45ce60f22b2de370a9279d7e4"
+      },
+      "back": {
+        "reviewId": "event-06",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=13bmWr-W4-8-Nqd3RAvbIFsLZmD6Wfywa&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-06_back.jpg",
+        "size": [
+          600,
+          878
+        ],
+        "sha256": "dc63cc887701c23734ce782060cb24957ef661291d2002e3a65b9427485487e2"
+      }
+    },
+    {
+      "uid": "supplement-event-1bd481e59b974ae5",
+      "code": "店鋪賽參賽獎 2026/5月",
+      "sourceName": "美人魚大賽紫",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-07",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1zg5z2Y9QGUyOM0tFdEMxqV1zlomX6PSZ&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-07_front.jpg",
+        "size": [
+          600,
+          866
+        ],
+        "sha256": "bbbba431c7a89114c6907e7e0d49a46c4abf40ee5f68675467cd206ab8d5d485"
+      },
+      "back": {
+        "reviewId": "event-07",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=11WDR7T343HhkUWm5UsFUyXsTBpiGKVBw&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-07_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "ca45fb0a55a8fee01525f7ddc5e940bef5639c91c2ca956cb61cdaa4df95bd0c"
+      }
+    },
+    {
+      "uid": "supplement-event-ae4f76e20a9effba",
+      "code": "店鋪賽參賽獎 2026/7月",
+      "sourceName": "羽毛大賽酷炫粉紅",
+      "character": "櫻",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-08",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=14KPYF_Eb_QiVnn87Fd_VFmq6vgsDYhAe&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-08_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "26f9a71eae0b00f1a6011b2bc6e3bf998d9e82bb2a56f45aba2140a50fe3d486"
+      },
+      "back": {
+        "reviewId": "event-08",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1kbS23q7rXue20PksGuXcmAaNLh-oa6vJ&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-08_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "237425f4075eb8cd24e2e1d5ffe159cf06babf3705dffb7f604071670f88b02f"
+      }
+    },
+    {
+      "uid": "supplement-event-1f205cc4d7d3f6dc",
+      "code": "店鋪賽報名獎 2026/3月",
+      "sourceName": "花朵薄紗橙色花束",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-09",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1dNcVOVUDT-juJ7IUNHZts5hswZnbCRuE&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-09_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "769e03a4046945773e463dca653380b5c73a0a9aeab8824d9454c03f54af0156"
+      },
+      "back": {
+        "reviewId": "event-09",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1MSGMT-6y3nNPi8hsIGBUBq--UXGQYOgT&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-09_back.jpg",
+        "size": [
+          600,
+          880
+        ],
+        "sha256": "5b4e50ef365d7162f0394c0ae316aafb313d2ca26bed7bdebc4dd4afe8e165c5"
+      }
+    },
+    {
+      "uid": "supplement-event-34d3db62803045ad",
+      "code": "店鋪賽報名獎 2026/5月",
+      "sourceName": "銀河粉紅",
+      "character": "美月",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-10",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1KWB0oCSkOXRyi04Uxf0nDVhNfYCqLGiF&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-10_front.jpg",
+        "size": [
+          600,
+          871
+        ],
+        "sha256": "e7d46bf7e375192dae511cc175ad78253679077fdb67c72a216e6a4599b53928"
+      },
+      "back": {
+        "reviewId": "event-10",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1GNeZhf5M8eJfKDY8R7tIg1sroxUyABnr&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-10_back.jpg",
+        "size": [
+          600,
+          869
+        ],
+        "sha256": "d984494c5f4563eb7beacadd57c084f96426ec99a9802b235f255d8d300f59ed"
+      }
+    },
+    {
+      "uid": "supplement-event-556f47bffa02d434",
+      "code": "店鋪賽報名獎 2026/7月",
+      "sourceName": "可愛糖糖活力橙",
+      "character": "愛里",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-11",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1d2ApCrVBuAyCHHhNF1yjPfBg_JUFaG-l&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-11_front.jpg",
+        "size": [
+          600,
+          870
+        ],
+        "sha256": "477106fb3c0ba9766783836d905d05cb379a2f20f77e0f21ac9184987a4bf775"
+      },
+      "back": {
+        "reviewId": "event-11",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1txrte8o0UYq5dPJeZdOgFEMANNU9HUSP&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-11_back.jpg",
+        "size": [
+          600,
+          877
+        ],
+        "sha256": "6fce9826f872f9ae9ef7290003ca489282303852ec6ebe68a927c393c24432be"
+      }
+    },
+    {
+      "uid": "supplement-event-a6c9e05f89a2679e",
+      "code": "祕密的偶像公主動畫 時尚魔女登場紀念活動！",
+      "sourceName": "小妖精藍",
+      "character": "紡",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-12",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1ztTHU8Brh9I1xAQTasfiP5eC-zBoMWz2&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-12_front.jpg",
+        "size": [
+          600,
+          875
+        ],
+        "sha256": "195a968ad4676d88fbb72e7842ab6104cabf048bd02ce4cab9dafbd222eaa891"
+      },
+      "back": {
+        "reviewId": "event-12",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1ySrshyYHXqSSjOQwZ2ms-ldGLdENjKea&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-12_back.jpg",
+        "size": [
+          600,
+          891
+        ],
+        "sha256": "fabe11761a7254b94ea53449a86ffa3a2b13f4a8066ef547b202fbff1ebd44af"
+      }
+    },
+    {
+      "uid": "supplement-event-0a025081b25d243d",
+      "code": "暑假限定！偶像公主幸運抽獎",
+      "sourceName": "華麗寶石黃",
+      "character": "櫻",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-13",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1ATnZYcbeziMW4ITWxt2p43pqPEdyX47V&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-13_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "564bc33f9fab34a6f1cefbfeaa0b5f9691dfce648577d35a35d2d72433ff0aca"
+      },
+      "back": {
+        "reviewId": "event-13",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1-jGBq53NwiSJXhtZvxnzkYuFzOLYWooV&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-13_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "451e5f57615611a1ce2df155adb91c6178d45fb553b5f0647775e800a93de4c8"
+      }
+    },
+    {
+      "uid": "supplement-event-6320bff44083007a",
+      "code": "暑假發卡活動",
+      "sourceName": "偶像公主空間Miracle Moon灰",
+      "character": "美月",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-14",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1GPN6CL7b6M9yPOY6qGLEfjG0qFmTNLj7&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-14_front.jpg",
+        "size": [
+          600,
+          871
+        ],
+        "sha256": "de374bba01216b36c69527561527fa201c7a86439dfdbe51348daaacfa39237b"
+      },
+      "back": {
+        "reviewId": "event-14",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1TS671eUmsLYv1bSSQ5uKMRPAecq5Ww2w&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-14_back.jpg",
+        "size": [
+          600,
+          877
+        ],
+        "sha256": "60250b789cdb2a2076e80c32cfc6ce4c09cfdacc776b1e6a5bf1e07b3c32d21f"
+      }
+    },
+    {
+      "uid": "supplement-event-9b55cd9de7d95054",
+      "code": "陽葵手環/卡冊 附卡",
+      "sourceName": "粉色寶石",
+      "character": "陽葵",
+      "category": "product",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-15",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1-xoSIu360yUNKxL5AXA2itBFWmZjSaww&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-15_front.jpg",
+        "size": [
+          600,
+          876
+        ],
+        "sha256": "cff2f99766babd4a0c32dafbb19e67c7b95cd6fecbbeb93d3407ac584e535082"
+      },
+      "back": {
+        "reviewId": "event-15",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=18CklikXoeAeerp55gctKATVRuAEjoTy6&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-15_back.jpg",
+        "size": [
+          600,
+          897
+        ],
+        "sha256": "54aa3ea235d2a16581b91e63243f942004b64d8946426fff554354b6468f17b8"
+      }
+    },
+    {
+      "uid": "supplement-event-10d9fa319cbed8d8",
+      "code": "店鋪賽參賽獎 2026/9月",
+      "sourceName": "極光白雪大賽獎品",
+      "character": "紡（公主版本）",
+      "category": "activity",
+      "decision": "included-front-only",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-16",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1LcbrzufWNdinnatnkIHnVX-8FT6gLGBF&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-16_front.jpg",
+        "size": [
+          600,
+          875
+        ],
+        "sha256": "9e05a11e82fedde0582d66817b0984a642f68069043d63f5cce0cc4cee1012fb"
+      },
+      "missingBackReason": "source-placeholder"
+    },
+    {
+      "uid": "supplement-event-0511874a4a31eb31",
+      "code": "店鋪賽報名獎 2026/9月",
+      "sourceName": "龐克企鵝白",
+      "character": "千依",
+      "category": "activity",
+      "decision": "included-front-only",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-17",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1Dpmt8hs7FqHTIHaXULZXjSkh_MSgDmKT&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-17_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "0224130a8b6c0917c846318582a3dfbb9559f22cd25ec4cf4a8d2fa313d7dc6b"
+      },
+      "missingBackReason": "source-placeholder"
+    },
+    {
+      "uid": "supplement-event-7128a0797f583823",
+      "code": "新生活應援發卡活動",
+      "sourceName": "可愛熊熊夢夢可愛",
+      "character": "琳琳",
+      "category": "activity",
+      "decision": "included-front-only",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-18",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1XmsFZlGjy9FLKKePDCPriaVFifeYeRN4&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-18_front.jpg",
+        "size": [
+          600,
+          869
+        ],
+        "sha256": "6d644f70819d033c945d30e12f2767d8bfdfd61124dd947570064506259f4a3b"
+      },
+      "missingBackReason": "source-placeholder"
+    },
+    {
+      "uid": "supplement-event-089e8f0afd25c644",
+      "code": "偶像公主大集合！入場特典",
+      "sourceName": "Q彈果凍哈密瓜",
+      "character": "美月",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-19",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1O08S5paqGIvm0I8V820fcAXlJrMixt5G&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-19_front.jpg",
+        "size": [
+          600,
+          882
+        ],
+        "sha256": "3b47df03f1e239c4441123b08d0693e97fbdffb961094093213fde00a0bcf5f0"
+      },
+      "back": {
+        "reviewId": "event-19",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1YGzHWDPQlnFxCPBh7-6ENUl7hYRr94bP&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-19_back.jpg",
+        "size": [
+          600,
+          879
+        ],
+        "sha256": "a2e42ba25af2f6b534a980942fbbd41e3ac23e83e40a60bd252e88357e722e39"
+      }
+    },
+    {
+      "uid": "supplement-event-0edb1a1f94f7f6f9",
+      "code": "偶像公主大集合！遊玩獎勵",
+      "sourceName": "雨滴點點夕陽橙",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-20",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=108sBBz9ke273WMpGP6sqB4TW1VupaBxV&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-20_front.jpg",
+        "size": [
+          600,
+          876
+        ],
+        "sha256": "f0fd598e028a139e15614c7e08ebbf12a6c7b823c8fed3d1da4cee58873383e2"
+      },
+      "back": {
+        "reviewId": "event-20",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1I1Gx0XYLllrAjD1iNyVr7ZmEuAAJqL_z&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-20_back.jpg",
+        "size": [
+          600,
+          875
+        ],
+        "sha256": "88fa3f3cb4a61b921246268429d179f90b10770266e0cb585393a85f441a58ee"
+      }
+    },
+    {
+      "uid": "supplement-event-f405b01ba59df599",
+      "code": "偶像公主大集合！消費獎勵",
+      "sourceName": "Flower March人氣螢光幻彩",
+      "character": "紡",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-21",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1K1CYDnV0rLBA3s_yRIYWMbZC9NHAzKlK&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-21_front.jpg",
+        "size": [
+          600,
+          878
+        ],
+        "sha256": "124976641a716eab3c672163800e7b7239d11d524f034714c4127a97f3b2cc23"
+      },
+      "back": {
+        "reviewId": "event-21",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=10amNzOkO2rd3rTTVVtPWnlsiUAdoDOYk&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-21_back.jpg",
+        "size": [
+          600,
+          885
+        ],
+        "sha256": "6d931fc8980a4d96226b64811fdaab349f6256de11404fba1e5c14d499e6e198"
+      }
+    },
+    {
+      "uid": "supplement-event-b322c3bfaa8a1156",
+      "code": "陽葵誕生祭！偶像公主幸運抽獎",
+      "sourceName": "清新檸檬薄荷",
+      "character": "陽葵",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-22",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=1XJ6n-XPAjKQ29HTPOasifs8iVCeiE2sL&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-22_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "51f34cd5ecb8ce31c52d3ae284d4fc544ff0f4d8fb5aed038c2cd97ef109f823"
+      },
+      "back": {
+        "reviewId": "event-22",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1fEgImeImYLE-q5Y2pyN0MKnJcXrmDhd8&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-22_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "b915a99013d528bb5052fb7e23e9f1e16999f53b9c7dfcbe63eb2403c9b1183a"
+      }
+    },
+    {
+      "uid": "supplement-event-727721329d3dd900",
+      "code": "美月誕生祭！偶像公主幸運抽獎",
+      "sourceName": "童話夢遊仙境粉紅",
+      "character": "美月",
+      "category": "activity",
+      "decision": "included",
+      "crop": "none",
+      "reviewedAt": "2026-10-08",
+      "note": "逐張目視核對；保留來源活動標籤，不推測星等、歌曲或台版正式卡號",
+      "front": {
+        "reviewId": "event-23",
+        "side": "front",
+        "source": "https://drive.google.com/thumbnail?id=13IiiWjN8_UBEdVIZlh75d3S45gp1-_Ut&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-23_front.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "53971607fa7056d22e568250963ee994878d27cd9ef1ae7a596ea864a7cb7636"
+      },
+      "back": {
+        "reviewId": "event-23",
+        "side": "back",
+        "source": "https://drive.google.com/thumbnail?id=1bHkpYuMq4jlxiJkNQJ0w1yAThSbIQEt7&sz=w600",
+        "file": "/tmp/aipri-signature-review/raw/event-23_back.jpg",
+        "size": [
+          600,
+          874
+        ],
+        "sha256": "e6521ad82a9051ff3767afa481eb683d3cef6d641f462204c8385c10ec9a596f"
+      }
+    }
+  ],
+  "frontOnly": 4,
+  "pVersions": 28,
+  "activitiesAndProducts": 23,
+  "realImages": 98
+}

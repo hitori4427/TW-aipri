@@ -1,0 +1,30 @@
+name: 建立卡片工作室離線包
+on:
+  push:
+    branches: [main]
+    paths: ['card-studio/**', '.github/workflows/build-card-studio-offline.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r card-studio/requirements.txt
+      - name: 驗證圖庫與補充卡
+        run: |
+          python card-studio/scripts/validate_catalog.py
+          python -m unittest discover -s card-studio/tests
+          node --check card-studio/app.js
+          node card-studio/tests/test_cached_catalog.cjs
+      - name: 建立離線包
+        run: python card-studio/scripts/build_offline.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: offline-card-studio
+          path: card-studio/release/偶像卡片交換工作室-離線圖庫版.zip
+          retention-days: 30
