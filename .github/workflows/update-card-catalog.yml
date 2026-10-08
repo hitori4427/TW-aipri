@@ -1,0 +1,54 @@
+name: 更新官方卡片圖庫
+on:
+  workflow_dispatch:
+    inputs:
+      sets:
+        description: 彈數（以空格分隔，例如 1 2 3 4 5 6）
+        default: '1 2 3 4 5 6'
+        required: true
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: update-card-catalog
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r card-studio/requirements.txt
+      - name: 同步圖庫
+        env:
+          CARD_SETS: ${{ inputs.sets }}
+        run: python card-studio/scripts/sync_catalog.py --sets $CARD_SETS
+      - name: 安裝卡號辨識工具
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - name: 辨識新卡號
+        run: python card-studio/scripts/recognize_codes.py
+      - name: 驗證圖庫
+        run: python card-studio/scripts/validate_catalog.py
+      - name: 建立離線包
+        run: python card-studio/scripts/build_offline.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: offline-card-studio
+          path: card-studio/release/偶像卡片交換工作室-離線圖庫版.zip
+          retention-days: 30
+      - name: 保存圖庫更新
+        run: |
+          git config user.name 'Card Catalog Update'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add card-studio/data card-studio/assets/cards
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update official Aipri card catalog'
+            git push
+          fi
+      - name: 重建 GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
