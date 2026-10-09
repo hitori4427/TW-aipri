@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "ad411b576bf05222",
+  "source": "User Google Form response, dual AX/DOM verification; CSV not verified",
+  "responseCount": 69,
+  "answers": [
+    {
+      "uid": "official-1",
+      "formCode": "AP1-001",
+      "finalCode": "AP1-001"
+    },
+    {
+      "uid": "official-3",
+      "formCode": "AP1-003",
+      "finalCode": "AP1-003"
+    },
+    {
+      "uid": "official-4",
+      "formCode": "AP1-004",
+      "finalCode": "AP1-004"
+    },
+    {
+      "uid": "official-7",
+      "formCode": "AP1-007",
+      "finalCode": "AP1-007"
+    },
+    {
+      "uid": "official-11",
+      "formCode": "AP1-010",
+      "finalCode": "AP1-011"
+    },
+    {
+      "uid": "official-12",
+      "formCode": "AP1-012",
+      "finalCode": "AP1-012"
+    },
+    {
+      "uid": "official-17",
+      "formCode": "AP1-017",
+      "finalCode": "AP1-017"
+    },
+    {
+      "uid": "official-60",
+      "formCode": "AP2-001",
+      "finalCode": "AP2-001"
+    },
+    {
+      "uid": "official-65",
+      "formCode": "AP2-006",
+      "finalCode": "AP2-006"
+    },
+    {
+      "uid": "official-70",
+      "formCode": "AP2-011",
+      "finalCode": "AP2-011"
+    },
+    {
+      "uid": "official-76",
+      "formCode": "AP2-017",
+      "finalCode": "AP2-017"
+    },
+    {
+      "uid": "official-79",
+      "formCode": "AP2-020",
+      "finalCode": "AP2-020"
+    },
+    {
+      "uid": "official-118",
+      "formCode": "AP3-001",
+      "finalCode": "AP3-001"
+    },
+    {
+      "uid": "official-121",
+      "formCode": "AP3-004",
+      "finalCode": "AP3-004"
+    },
+    {
+      "uid": "official-123",
+      "formCode": "AP3-006",
+      "finalCode": "AP3-006"
+    },
+    {
+      "uid": "official-124",
+      "formCode": "AP3-007",
+      "finalCode": "AP3-007"
+    },
+    {
+      "uid": "official-125",
+      "formCode": "AP3-008",
+      "finalCode": "AP3-008"
+    },
+    {
+      "uid": "official-128",
+      "formCode": "AP3-011",
+      "finalCode": "AP3-011"
+    },
+    {
+      "uid": "official-134",
+      "formCode": "AP3-017",
+      "finalCode": "AP3-017"
+    },
+    {
+      "uid": "official-135",
+      "formCode": "AP3-018",
+      "finalCode": "AP3-018"
+    },
+    {
+      "uid": "official-136",
+      "formCode": "AP3-019",
+      "finalCode": "AP3-019"
+    },
+    {
+      "uid": "official-146",
+      "formCode": "AP3-029",
+      "finalCode": "AP3-029"
+    },
+    {
+      "uid": "official-149",
+      "formCode": "AP3-032",
+      "finalCode": "AP3-032"
+    },
+    {
+      "uid": "official-153",
+      "formCode": "AP3-036",
+      "finalCode": "AP3-036"
+    },
+    {
+      "uid": "official-159",
+      "formCode": "AP3-049",
+      "finalCode": "AP3-049"
+    },
+    {
+      "uid": "official-162",
+      "formCode": "AP3-052",
+      "finalCode": "AP3-052"
+    },
+    {
+      "uid": "official-171",
+      "formCode": "AP3-061",
+      "finalCode": "AP3-061"
+    },
+    {
+      "uid": "official-173",
+      "formCode": "AP3-039",
+      "finalCode": "AP3-039"
+    },
+    {
+      "uid": "official-177",
+      "formCode": "AP3-043",
+      "finalCode": "AP3-043"
+    },
+    {
+      "uid": "official-179",
+      "formCode": "AP4-001",
+      "finalCode": "AP4-001"
+    },
+    {
+      "uid": "official-181",
+      "formCode": "AP4-003",
+      "finalCode": "AP4-003"
+    },
+    {
+      "uid": "official-182",
+      "formCode": "AP4-004",
+      "finalCode": "AP4-004"
+    },
+    {
+      "uid": "official-184",
+      "formCode": "AP4-006",
+      "finalCode": "AP4-006"
+    },
+    {
+      "uid": "official-185",
+      "formCode": "AP4-007",
+      "finalCode": "AP4-007"
+    },
+    {
+      "uid": "official-186",
+      "formCode": "AP4-008",
+      "finalCode": "AP4-008"
+    },
+    {
+      "uid": "official-187",
+      "formCode": "AP4-009",
+      "finalCode": "AP4-009"
+    },
+    {
+      "uid": "official-189",
+      "formCode": "AP4-011",
+      "finalCode": "AP4-011"
+    },
+    {
+      "uid": "official-190",
+      "formCode": "AP4-012",
+      "finalCode": "AP4-012"
+    },
+    {
+      "uid": "official-192",
+      "formCode": "AP4-014",
+      "finalCode": "AP4-014"
+    },
+    {
+      "uid": "official-194",
+      "formCode": "AP4-016",
+      "finalCode": "AP4-016"
+    },
+    {
+      "uid": "official-195",
+      "formCode": "AP4-017",
+      "finalCode": "AP4-017"
+    },
+    {
+      "uid": "official-196",
+      "formCode": "AP4-018",
+      "finalCode": "AP4-018"
+    },
+    {
+      "uid": "official-198",
+      "formCode": "AP4-020",
+      "finalCode": "AP4-020"
+    },
+    {
+      "uid": "official-201",
+      "formCode": "AP4-023",
+      "finalCode": "AP4-023"
+    },
+    {
+      "uid": "official-204",
+      "formCode": "AP4-026",
+      "finalCode": "AP4-026"
+    },
+    {
+      "uid": "official-207",
+      "formCode": "AP4-029",
+      "finalCode": "AP4-029"
+    },
+    {
+      "uid": "official-209",
+      "formCode": "AP4-031",
+      "finalCode": "AP4-031"
+    },
+    {
+      "uid": "official-212",
+      "formCode": "AP4-034",
+      "finalCode": "AP4-034"
+    },
+    {
+      "uid": "official-213",
+      "formCode": "AP4-035",
+      "finalCode": "AP4-035"
+    },
+    {
+      "uid": "official-229",
+      "formCode": "AP4-051",
+      "finalCode": "AP4-051"
+    },
+    {
+      "uid": "official-240",
+      "formCode": "AP5-001",
+      "finalCode": "AP5-001"
+    },
+    {
+      "uid": "official-242",
+      "formCode": "AP5-003",
+      "finalCode": "AP5-003"
+    },
+    {
+      "uid": "official-243",
+      "formCode": "AP5-004",
+      "finalCode": "AP5-004"
+    },
+    {
+      "uid": "official-244",
+      "formCode": "AP5-005",
+      "finalCode": "AP5-005"
+    },
+    {
+      "uid": "official-248",
+      "formCode": "AP5-009",
+      "finalCode": "AP5-009"
+    },
+    {
+      "uid": "official-252",
+      "formCode": "AP5-013",
+      "finalCode": "AP5-013"
+    },
+    {
+      "uid": "official-255",
+      "formCode": "AP5-016",
+      "finalCode": "AP5-016"
+    },
+    {
+      "uid": "official-257",
+      "formCode": "AP5-018",
+      "finalCode": "AP5-018"
+    },
+    {
+      "uid": "official-297",
+      "formCode": "AP6-002",
+      "finalCode": "AP6-002"
+    },
+    {
+      "uid": "official-300",
+      "formCode": "AP6-005",
+      "finalCode": "AP6-005"
+    },
+    {
+      "uid": "official-301",
+      "formCode": "AP6-006",
+      "finalCode": "AP6-006"
+    },
+    {
+      "uid": "official-302",
+      "formCode": "AP6-007",
+      "finalCode": "AP6-007"
+    },
+    {
+      "uid": "official-303",
+      "formCode": "AP6-008",
+      "finalCode": "AP6-008"
+    },
+    {
+      "uid": "official-305",
+      "formCode": "AP6-010",
+      "finalCode": "AP6-010"
+    },
+    {
+      "uid": "official-306",
+      "formCode": "AP6-011",
+      "finalCode": "AP6-011"
+    },
+    {
+      "uid": "official-308",
+      "formCode": "AP6-013",
+      "finalCode": "AP6-013"
+    },
+    {
+      "uid": "official-310",
+      "formCode": "AP6-015",
+      "finalCode": "AP6-015"
+    },
+    {
+      "uid": "official-314",
+      "formCode": "AP6-019",
+      "finalCode": "AP6-019"
+    },
+    {
+      "uid": "official-317",
+      "formCode": "AP6-054",
+      "finalCode": "AP6-054"
+    }
+  ],
+  "approvedCorrections": [
+    {
+      "uid": "official-11",
+      "previous": "AP1-010",
+      "confirmed": "AP1-011",
+      "source": "user-approved-original-card-back",
+      "evidence": "six-card-visual-review.json"
+    },
+    {
+      "uid": "official-130",
+      "previous": "AP3-018",
+      "confirmed": "AP3-013",
+      "source": "user-approved-original-card-back",
+      "evidence": "six-card-visual-review.json"
+    },
+    {
+      "uid": "official-132",
+      "previous": "AP3-019",
+      "confirmed": "AP3-015",
+      "source": "user-approved-original-card-back",
+      "evidence": "six-card-visual-review.json"
+    }
+  ]
+}
